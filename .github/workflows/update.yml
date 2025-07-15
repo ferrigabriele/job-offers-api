@@ -27,10 +27,11 @@ jobs:
     - name: 🔁 Esegui script Python
       run: python generate_json.py
 
-    - name: 💾 Commit e push del JSON aggiornato
-      run: |
-        git config user.name "github-actions"
-        git config user.email "actions@github.com"
-        git add data/data.json
-        git commit -m "Aggiornamento automatico JSON $(date -u +'%Y-%m-%d %H:%M:%S')" || echo "Nessuna modifica"
-        git push
+   - name: 💾 Commit e push del JSON aggiornato
+  run: |
+    git config user.name "github-actions"
+    git config user.email "actions@github.com"
+    git pull --rebase
+    git add data/data.json
+    git commit -m "Aggiornamento automatico JSON $(date -u +'%Y-%m-%d %H:%M:%S')" || echo "Nessuna modifica"
+    git push
