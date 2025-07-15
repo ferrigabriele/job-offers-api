@@ -23,7 +23,8 @@ def convert_excel_to_json(excel_bytes):
         if pd.api.types.is_datetime64_any_dtype(df[col]):
             df[col] = df[col].dt.strftime('%d/%m/%Y')
 
-    return df.to_dict(orient='records')
+    # Converte NaN in None per avere JSON valido (null)
+    return df.where(pd.notnull(df), None).to_dict(orient='records')
 
 def save_json(data, output_path):
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
