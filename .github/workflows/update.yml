@@ -26,9 +26,10 @@ jobs:
 
       - name: 💾 Commit e push del JSON aggiornato
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git pull --rebase
-          git add data/data.json
-          git commit -m "Aggiornamento automatico JSON $(date -u +'%Y-%m-%d %H:%M:%S')" || echo "Nessuna modifica"
-          git push
+              git config user.name "github-actions"
+              git config user.email "actions@github.com"
+              git add data/data.json
+              git commit -m "Aggiornamento automatico JSON $(date -u +'%Y-%m-%d %H:%M:%S')" || echo "Nessuna modifica"
+              git pull --rebase
+              git push
+
