@@ -19,6 +19,10 @@ def convert_excel_to_json(excel_bytes):
     # Rimuove righe completamente vuote
     df.dropna(how='all', inplace=True)
 
+    # 🔽 Filtra solo le offerte Standard
+    if "TipoPreselezione" in df.columns:
+        df = df[df["TipoPreselezione"] == "Standard"]
+
     # Converte DataInserimento e DataScadenza in datetime
     for col in ["DataInserimento", "DataScadenza"]:
         if col in df.columns:
@@ -26,16 +30,16 @@ def convert_excel_to_json(excel_bytes):
             df[f"{col}ISO"] = df[col].dt.strftime('%Y-%m-%d')
             df[col] = df[col].dt.strftime('%d/%m/%Y')
 
-    # Converte anche DataInserimentoISO e DataScadenzaISO in stringa (se per caso contengono Timestamp residui)
+    # Converte eventuali altre date in stringhe ISO
     for col in df.columns:
         if pd.api.types.is_datetime64_any_dtype(df[col]):
             df[col] = df[col].dt.strftime('%Y-%m-%d')
 
-    # Ordina per DataInserimentoISO decrescente
+    # Ordina per DataInserimento decrescente
     if "DataInserimentoISO" in df.columns:
         df.sort_values(by="DataInserimentoISO", ascending=False, inplace=True)
 
-    # Sostituisce tutti i NaN con None
+    # Sostituisce i NaN con None
     data = df.to_dict(orient='records')
     cleaned_data = [
         {k: (None if pd.isna(v) or isinstance(v, float) and np.isnan(v) else v) for k, v in row.items()}
