@@ -30,16 +30,11 @@ def convert_excel_to_json(excel_bytes):
             df[f"{col}ISO"] = df[col].dt.strftime('%Y-%m-%d')
             df[col] = df[col].dt.strftime('%d/%m/%Y')
 
-    # Converte eventuali altre date in stringhe ISO
-    for col in df.columns:
-        if pd.api.types.is_datetime64_any_dtype(df[col]):
-            df[col] = df[col].dt.strftime('%Y-%m-%d')
-
-    # Ordina per DataInserimento decrescente
+    # Ordina per DataInserimentoISO decrescente
     if "DataInserimentoISO" in df.columns:
         df.sort_values(by="DataInserimentoISO", ascending=False, inplace=True)
 
-    # 🔽 Mantieni solo i campi selezionati nel JSON
+    # 🔽 Mantieni solo i campi finali
     campi_finali = [
         "CPI",
         "ID_Richiesta",
