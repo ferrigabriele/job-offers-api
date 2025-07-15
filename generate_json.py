@@ -19,18 +19,19 @@ def convert_excel_to_json(excel_bytes):
     # Rimuove righe completamente vuote
     df.dropna(how='all', inplace=True)
 
-    # Converte DataInserimento e DataScadenza in datetime (se esistono)
+    # Converte DataInserimento e DataScadenza in datetime
     for col in ["DataInserimento", "DataScadenza"]:
         if col in df.columns:
             df[col] = pd.to_datetime(df[col], errors='coerce')
-
-            # Aggiunge colonna ISO (es. DataInserimentoISO)
             df[f"{col}ISO"] = df[col].dt.strftime('%Y-%m-%d')
-
-            # Sovrascrive la colonna originale con formato italiano
             df[col] = df[col].dt.strftime('%d/%m/%Y')
 
-    # Ordina per DataInserimento decrescente (più recenti in alto)
+    # Converte anche DataInserimentoISO e DataScadenzaISO in stringa (se per caso contengono Timestamp residui)
+    for col in df.columns:
+        if pd.api.types.is_datetime64_any_dtype(df[col]):
+            df[col] = df[col].dt.strftime('%Y-%m-%d')
+
+    # Ordina per DataInserimentoISO decrescente
     if "DataInserimentoISO" in df.columns:
         df.sort_values(by="DataInserimentoISO", ascending=False, inplace=True)
 
