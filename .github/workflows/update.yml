@@ -2,36 +2,33 @@ name: Update JSON from Google Sheets
 
 on:
   schedule:
-    - cron: '0 2 * * *'  # Ogni giorno alle 6:00 UTC
-  workflow_dispatch:     # Permette di eseguire manualmente
-  push:
-    paths:
-      - generate_json.py
+    - cron: '0 2 * * *'   # Esegui ogni giorno alle 2:00 UTC (4:00 italiane)
+  workflow_dispatch:       # Abilita il pulsante "Run workflow" manuale
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: 📥 Clona il repository
-      uses: actions/checkout@v3
+      - name: 📥 Clona il repository
+        uses: actions/checkout@v3
 
-    - name: 🐍 Setup Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.11'
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
 
-    - name: 📦 Installa dipendenze
-      run: pip install pandas openpyxl requests
+      - name: 📦 Installa dipendenze
+        run: pip install pandas openpyxl requests numpy
 
-    - name: 🔁 Esegui script Python
-      run: python generate_json.py
+      - name: 🔁 Esegui script Python
+        run: python generate_json.py
 
-   - name: 💾 Commit e push del JSON aggiornato
-  run: |
-    git config user.name "github-actions"
-    git config user.email "actions@github.com"
-    git pull --rebase
-    git add data/data.json
-    git commit -m "Aggiornamento automatico JSON $(date -u +'%Y-%m-%d %H:%M:%S')" || echo "Nessuna modifica"
-    git push
+      - name: 💾 Commit e push del JSON aggiornato
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git pull --rebase
+          git add data/data.json
+          git commit -m "Aggiornamento automatico JSON $(date -u +'%Y-%m-%d %H:%M:%S')" || echo "Nessuna modifica"
+          git push
