@@ -34,25 +34,24 @@ def convert_excel_to_json(excel_bytes):
     if "DataInserimentoISO" in df.columns:
         df.sort_values(by="DataInserimentoISO", ascending=False, inplace=True)
 
-    # 🔽 Mantieni solo i campi finali
-campi_finali = [
-    "CPI",
-    "ID_Richiesta",
-    "DataInserimento",
-    "DataScadenza",
-    "Azienda",
-    "NumeroLavoratoriRichiesti",
-    "Qualifica",
-    "Mansioni",
-    "ComuneSedeLavoro",
-    "TipoContratto",
-    "PreselezioneRiservataDiversamenteAbili",
-    "PreselezioneRiservataCategorieProtette",
-    "DataInserimentoISO",
-    "DataScadenzaISO",
-    "LinkPubblicazioneOfferta"
-]
-
+    # 🔽 Mantieni solo i campi selezionati nel JSON
+    campi_finali = [
+        "CPI",
+        "ID_Richiesta",
+        "DataInserimento",
+        "DataScadenza",
+        "Azienda",
+        "NumeroLavoratoriRichiesti",
+        "Qualifica",
+        "Mansioni",
+        "ComuneSedeLavoro",
+        "TipoContratto",
+        "PreselezioneRiservataDiversamenteAbili",
+        "PreselezioneRiservataCategorieProtette",
+        "DataInserimentoISO",
+        "DataScadenzaISO",
+        "LinkPubblicazioneOfferta"
+    ]
     df = df[[col for col in campi_finali if col in df.columns]]
 
     # Sostituisce i NaN con None
