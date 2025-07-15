@@ -2,8 +2,8 @@ import requests
 import pandas as pd
 from io import BytesIO
 import os
+import json
 
-# URL per scaricare lo spreadsheet come file Excel (.xlsx)
 FILE_URL = "https://docs.google.com/spreadsheets/d/1eg4h5A0ToocKoMhOnEeSDa97IXMwY0hb/export?format=xlsx"
 OUTPUT_PATH = "data/data.json"
 
@@ -18,12 +18,14 @@ def convert_excel_to_json(excel_bytes):
     # Rimuove righe completamente vuote
     df.dropna(how='all', inplace=True)
 
-    # Converte in dizionario
-    records = df.to_dict(orient='records')
-    return records
+    # Converte le date nel formato GG/MM/AAAA
+    for col in df.columns:
+        if pd.api.types.is_datetime64_any_dtype(df[col]):
+            df[col] = df[col].dt.strftime('%d/%m/%Y')
+
+    return df.to_dict(orient='records')
 
 def save_json(data, output_path):
-    import json
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
