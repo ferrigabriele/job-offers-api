@@ -3,6 +3,7 @@ import pandas as pd
 from io import BytesIO
 import os
 import json
+import numpy as np
 
 FILE_URL = "https://docs.google.com/spreadsheets/d/1eg4h5A0ToocKoMhOnEeSDa97IXMwY0hb/export?format=xlsx"
 OUTPUT_PATH = "data/data.json"
@@ -23,8 +24,14 @@ def convert_excel_to_json(excel_bytes):
         if pd.api.types.is_datetime64_any_dtype(df[col]):
             df[col] = df[col].dt.strftime('%d/%m/%Y')
 
-    # Converte NaN in None per avere JSON valido (null)
-    return df.where(pd.notnull(df), None).to_dict(orient='records')
+    # Forza sostituzione di TUTTI i NaN con None
+    data = df.to_dict(orient='records')
+    cleaned_data = []
+    for row in data:
+        cleaned_row = {k: (None if pd.isna(v) or isinstance(v, float) and np.isnan(v) else v) for k, v in row.items()}
+        cleaned_data.append(cleaned_row)
+
+    return cleaned_data
 
 def save_json(data, output_path):
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
