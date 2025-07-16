@@ -1,60 +1,69 @@
-# 📦 Job Offers API - Regione Lazio (Sofia)
+# 🧪 SOFIA – Prototipo API Offerte di Lavoro (in fase di test)
 
 ![Stato aggiornamento JSON](https://github.com/ferrigabriele/job-offers-api/actions/workflows/update.yml/badge.svg)
 
-Questo progetto genera ogni giorno un file JSON aggiornato contenente le offerte di lavoro pubblicate nei Centri per l’Impiego del Lazio.
+⚠️ **Attenzione:** Questo repository contiene una **versione sperimentale** utilizzata per la costruzione del **prototipo SOFIA**, l’assistente virtuale per i Centri per l’Impiego del Lazio.
 
-I dati provengono da un file Excel su Google Drive e vengono:
-- filtrati per `TipoPreselezione = "Standard"`
-- convertiti in JSON
-- pubblicati tramite GitHub Pages
+> I dati esposti sono **non ufficiali**, **non esaustivi** e potrebbero contenere **inesattezze**.  
+> L'utilizzo è riservato esclusivamente a **scopi di test e sviluppo**.
 
 ---
 
-## 🔗 JSON pubblico
+## 🔗 JSON pubblico (non ufficiale)
 
-📄 File aggiornato ogni giorno →  
-**[Clicca qui per vedere il JSON](https://ferrigabriele.github.io/job-offers-api/data/data.json)**
-
----
-
-## 📡 Utilizzo via GPT (Sofia)
-
-L’assistente virtuale GPT "Sofia" è configurato per leggere questo JSON e rispondere a domande come:
-
-- “Quali offerte sono in scadenza oggi?”
-- “Ci sono opportunità per OSS a Latina?”
-- “Mostrami i link ufficiali per candidarmi”
+📄 File JSON generato ogni giorno (prototipo):
+**[Clicca qui per visualizzare il file JSON](https://ferrigabriele.github.io/job-offers-api/data/data.json)**
 
 ---
 
-## 🛠 Tecnologie usate
+## 🤖 Cos'è SOFIA?
 
-- Google Drive (file Excel pubblico)
-- GitHub Actions (workflow automatico)
-- Python (`pandas`, `requests`)
-- GitHub Pages (hosting gratuito del JSON)
+SOFIA è un **assistente virtuale sperimentale** progettato per supportare le attività dei CPI nella consultazione delle offerte di lavoro.  
+Questo prototipo connette GPT con un file JSON aggiornato automaticamente.
 
 ---
 
-## 📆 Frequenza aggiornamento
+## 💡 Cosa fa questo prototipo?
 
-- ✅ Ogni giorno alle ore 4:00 italiane (02:00 UTC)
-- ⚠️ Se il badge sopra è rosso, l’ultimo aggiornamento **non è andato a buon fine**
-
----
-
-## 🤝 Contribuire
-
-Se vuoi proporre filtri, aggiungere nuovi campi o integrare altri flussi regionali:
-1. Forka il progetto
-2. Apri una pull request
-3. Oppure contattaci direttamente
+- Converte un file Excel ospitato su Google Drive in formato JSON
+- Filtra solo le offerte `Standard`
+- Esporta un JSON leggibile da GPT
+- Fornisce link diretti al portale regionale (se presenti)
 
 ---
 
-## 📧 Contatti
+## 📅 Aggiornamento automatico
 
-🔗 [GitHub: ferrigabriele](https://github.com/ferrigabriele)
-📩 Email amministrativa o tecnica disponibile su richiesta
+🕓 Il JSON viene aggiornato ogni giorno alle **04:00 italiane (02:00 UTC)** tramite GitHub Actions.
 
+🔴 Se il badge in alto è rosso, significa che l’aggiornamento **non è riuscito**.
+
+---
+
+## 🛠 Tecnologie utilizzate
+
+- Python + Pandas
+- GitHub Actions
+- Google Drive (Excel condiviso pubblicamente)
+- GitHub Pages
+
+---
+
+## ⚠️ AVVISO IMPORTANTE
+
+> Questo progetto **non è destinato alla consultazione pubblica dei cittadini**.  
+> I dati sono incompleti, soggetti a errore e usati solo a fini di **prototipazione tecnica interna**.
+
+---
+
+## 📩 Contatti e contributi
+
+Per proporre miglioramenti o collaborazioni tecniche:
+- GitHub: [ferrigabriele](https://github.com/ferrigabriele)
+- Email disponibile su richiesta privata
+
+---
+
+## 📌 Licenza
+
+© 2025 – Questo prototipo non ha licenza d’uso. Non distribuire dati o codice senza autorizzazione.
