@@ -66,4 +66,4 @@ Per proporre miglioramenti o collaborazioni tecniche:
 
 ## 📌 Licenza
 
-© 2025 – Questo prototipo non ha licenza d’uso. Non distribuire dati o codice senza autorizzazione.
+© 2025 – Questo prototipo non ha licenza d’uso. Non distribuire dati o codice senza autorizzazione
