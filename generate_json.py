@@ -65,8 +65,19 @@ def convert_excel_to_json(excel_bytes):
 
 def save_json(data, output_path):
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
+    json_finale = {
+        "meta": {
+            "progetto": "SOFIA - Prototipo di assistente virtuale per i Centri per l’Impiego",
+            "versione": "test",
+            "ultimo_aggiornamento": pd.Timestamp.now().strftime('%Y-%m-%d'),
+            "avviso": "⚠️ Questo file JSON è generato a scopo di test. I dati non sono ufficiali e possono contenere errori o essere incompleti. Usare solo per prototipazione tecnica interna."
+        },
+        "offerte": data
+    }
+
     with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+        json.dump(json_finale, f, ensure_ascii=False, indent=2)
 
 def main():
     print("📥 Scarico il file Excel da Google Drive...")
