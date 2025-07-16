@@ -1,0 +1,12 @@
+ATTENZIONE: QUESTO È UN PROTOTIPO DI TEST
+
+Il presente repository fa parte del progetto sperimentale "SOFIA", un assistente virtuale in fase di sviluppo per i Centri per l’Impiego del Lazio.
+
+I dati pubblicati nel file JSON sono estratti automaticamente da un file Excel condiviso per test. Tali dati:
+- NON sono ufficiali
+- POSSONO contenere errori, omissioni o essere non aggiornati
+- NON devono essere usati per fini pubblici, istituzionali o decisionali
+
+Questo prototipo è destinato esclusivamente a scopi di verifica tecnica e test interno.
+
+Ogni uso improprio, diffusione o interpretazione errata dei dati è a totale rischio dell'utente.
