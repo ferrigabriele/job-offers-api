@@ -1,6 +1,6 @@
 # 🧪 SOFIA – Prototipo API Offerte di Lavoro (in fase di test)
 
-![Stato aggiornamento JSON](https://github.com/ferrigabriele/job-offers-api/actions/workflows/update.yml/badge.svg)
+![Stato aggiornamento JSON](https://github.com/ferrigabriele/job-offers-api/actions/workflows/update.yml/badge.svg?branch=main)
 
 🚠 **Attenzione:** Questo repository contiene una **versione sperimentale** utilizzata per la costruzione del **prototipo SOFIA**, l’assistente virtuale per i Centri per l’Impiego del Lazio.
 
