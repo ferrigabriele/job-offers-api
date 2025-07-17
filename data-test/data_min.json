@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "fonte": "Test JSON ridotto per GPT",
+    "ultimo_aggiornamento": "2025-07-17T14:04:16.358514",
+    "note": "File ridotto per test. Solo due offerte simulate."
+  },
+  "offerte": [
+    {
+      "CPI": "ROMA CENTRO",
+      "ID_Richiesta": "TEST001",
+      "DataInserimento": "16/07/2025",
+      "DataInserimentoISO": "2025-07-16",
+      "DataScadenza": "30/07/2025",
+      "DataScadenzaISO": "2025-07-30",
+      "Azienda": "ALFA SRL",
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "Addetto alla segreteria",
+      "Mansioni": "Gestione documentale e front office.",
+      "ComuneSedeLavoro": "Roma",
+      "TipoContratto": "Tempo determinato",
+      "PreselezioneRiservataDiversamenteAbili": "NO",
+      "PreselezioneRiservataCategorieProtette": "NO",
+      "LinkPubblicazioneOfferta": "https://example.com/offerta/TEST001"
+    },
+    {
+      "CPI": "LATINA",
+      "ID_Richiesta": "TEST002",
+      "DataInserimento": "15/07/2025",
+      "DataInserimentoISO": "2025-07-15",
+      "DataScadenza": "29/07/2025",
+      "DataScadenzaISO": "2025-07-29",
+      "Azienda": "BETA CONSULTING",
+      "NumeroLavoratoriRichiesti": 2,
+      "Qualifica": "Consulente informatico",
+      "Mansioni": "Supporto tecnico a clienti e installazioni software.",
+      "ComuneSedeLavoro": "Latina",
+      "TipoContratto": "Tempo pieno, tempo determinato",
+      "PreselezioneRiservataDiversamenteAbili": "SI",
+      "PreselezioneRiservataCategorieProtette": "NO",
+      "LinkPubblicazioneOfferta": "https://example.com/offerta/TEST002"
+    }
+  ]
+}
