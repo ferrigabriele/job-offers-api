@@ -24,7 +24,7 @@ jobs:
 
       - name: Esegui lo script per generare i JSON
         run: |
-          python generate_dual_json.py
+          python generate_json.py
 
       - name: Commit e push dei file JSON aggiornati
         run: |
