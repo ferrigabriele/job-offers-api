@@ -30,6 +30,15 @@ def convert_excel_to_json(excel_bytes):
     if "DataInserimentoISO" in df.columns:
         df.sort_values(by="DataInserimentoISO", ascending=False, inplace=True)
 
+    # Mappatura nuova colonna "PreselezioneRiservata"
+    if "PreselezioneRiservata" in df.columns:
+        df["PreselezioneRiservataDiversamenteAbili"] = df["PreselezioneRiservata"].apply(
+            lambda x: "SI" if isinstance(x, str) and "art 1" in x else "NO"
+        )
+        df["PreselezioneRiservataCategorieProtette"] = df["PreselezioneRiservata"].apply(
+            lambda x: "SI" if isinstance(x, str) and "art 18" in x else "NO"
+        )
+
     campi_finali = [
         "CPI",
         "ID_Richiesta",
