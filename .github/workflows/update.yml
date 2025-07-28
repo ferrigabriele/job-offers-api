@@ -1,36 +1,36 @@
-name: Aggiornamento Offerte di Lavoro
+name: Aggiorna JSON ogni giorno
 
 on:
   schedule:
-    - cron: '0 4 * * *'  # Esegui ogni giorno alle 04:00 AM UTC
-  workflow_dispatch:      # Permette l'esecuzione manuale
+    - cron: '0 2 * * *' # 04:00 italiane
+  workflow_dispatch:
 
 jobs:
-  update-json:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout del repository
-        uses: actions/checkout@v2
+      - name: 🗂 Clona il repository
+        uses: actions/checkout@v3
 
-      - name: Setta Python 3.8
-        uses: actions/setup-python@v2
+      - name: 🛠 Installa Python
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.8'
+          python-version: '3.10'
 
-      - name: Installa dipendenze
+      - name: 📊 Installa le dipendenze
         run: |
           python -m pip install --upgrade pip
-          pip install pandas requests numpy openpyxl
+          pip install -r requirements.txt
 
-      - name: Esegui lo script per generare i JSON
+      - name: 💡 Genera i file JSON
         run: |
           python generate_json.py
 
-      - name: Commit e push dei file JSON aggiornati
+      - name: 📃 Commit e push dei file JSON
         run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add data/data.json data/data_min.json
-          git commit -m "Aggiornamento automatico JSON completo e ridotto"
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/*.json
+          git commit -m "♻️ Update JSON automatico"
           git push
