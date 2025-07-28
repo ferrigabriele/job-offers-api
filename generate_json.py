@@ -8,6 +8,7 @@ import numpy as np
 FILE_URL = "https://docs.google.com/spreadsheets/d/1eg4h5A0ToocKoMhOnEeSDa97IXMwY0hb/export?format=xlsx"
 OUTPUT_PATH_FULL = "data/data.json"
 OUTPUT_PATH_MIN = "data/data_min.json"
+OUTPUT_PATH_PUBLISHED = "data/data_published.json"
 
 def download_excel(url):
     response = requests.get(url)
@@ -30,7 +31,6 @@ def convert_excel_to_json(excel_bytes):
     if "DataInserimentoISO" in df.columns:
         df.sort_values(by="DataInserimentoISO", ascending=False, inplace=True)
 
-    # Mappatura nuova colonna "PreselezioneRiservata"
     if "PreselezioneRiservata" in df.columns:
         df["PreselezioneRiservataDiversamenteAbili"] = df["PreselezioneRiservata"].apply(
             lambda x: "SI" if isinstance(x, str) and "art 1" in x else "NO"
@@ -70,6 +70,9 @@ def convert_minimal_json(data):
     offerte_con_link = [o for o in data if o.get("LinkPubblicazioneOfferta")]
     return offerte_con_link[:60]
 
+def convert_published_json(data):
+    return [o for o in data if o.get("LinkPubblicazioneOfferta")]
+
 def save_json(data, output_path):
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     json_finale = {
@@ -91,13 +94,18 @@ def main():
     print("📊 Converto in JSON...")
     json_data_full = convert_excel_to_json(excel_file)
 
-    print(f"💾 Salvo in {OUTPUT_PATH_FULL}...")
+    print(f"📀 Salvo in {OUTPUT_PATH_FULL}...")
     save_json(json_data_full, OUTPUT_PATH_FULL)
 
     print("📊 Creo anche la versione ridotta...")
     json_data_min = convert_minimal_json(json_data_full)
-    print(f"💾 Salvo in {OUTPUT_PATH_MIN}...")
+    print(f"📀 Salvo in {OUTPUT_PATH_MIN}...")
     save_json(json_data_min, OUTPUT_PATH_MIN)
+
+    print("📊 Creo anche la versione pubblicata...")
+    json_data_published = convert_published_json(json_data_full)
+    print(f"📀 Salvo in {OUTPUT_PATH_PUBLISHED}...")
+    save_json(json_data_published, OUTPUT_PATH_PUBLISHED)
 
     print("✅ Completato.")
 
