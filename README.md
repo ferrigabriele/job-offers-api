@@ -17,6 +17,9 @@
 📄 File JSON ridotto (ultime 60 offerte con link):  
 **[Clicca qui per visualizzare il file JSON ridotto](https://ferrigabriele.github.io/job-offers-api/data/data_min.json)**
 
+📄 File JSON pubblicato (tutte le offerte con link):  
+**[Clicca qui per visualizzare il file JSON pubblicato](https://ferrigabriele.github.io/job-offers-api/data/data_published.json)**
+
 ---
 
 ## 🧠 Cos'è SOFIA?
@@ -30,14 +33,15 @@ Questo prototipo connette GPT con un file JSON aggiornato automaticamente.
 
 - Converte un file Excel ospitato su Google Drive in formato JSON
 - Filtra solo le offerte `Standard`
-- Esporta due file JSON:
+- Esporta tre file JSON:
   - uno **completo** con tutte le offerte
   - uno **ridotto** con massimo 60 offerte pubblicate (con link)
+  - uno **filtrato** con **solo le offerte pubblicate** (cioè con link)
 - Fornisce link diretti al portale regionale (se presenti)
 
 ---
 
-## 🗕 Aggiornamento automatico
+## 🗵️ Aggiornamento automatico
 
 🕒 I file JSON vengono aggiornati ogni giorno alle **04:00 italiane (02:00 UTC)** tramite GitHub Actions.
 
