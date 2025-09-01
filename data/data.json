@@ -2,7 +2,7 @@
   "meta": {
     "progetto": "SOFIA - Prototipo di assistente virtuale per i Centri per l’Impiego",
     "versione": "test",
-    "ultimo_aggiornamento": "2025-08-31",
+    "ultimo_aggiornamento": "2025-09-01",
     "avviso": "⚠️ Questo file JSON è generato a scopo di test. I dati non sono ufficiali e possono contenere errori o essere incompleti. Usare solo per prototipazione tecnica interna."
   },
   "offerte": [
@@ -38,7 +38,7 @@
       "PreselezioneRiservataCategorieProtette": "NO",
       "DataInserimentoISO": "2025-08-29",
       "DataScadenzaISO": "2025-09-12",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/9639"
     },
     {
       "CPI": "ROMA TORRE_ANGELA",
@@ -72,7 +72,7 @@
       "PreselezioneRiservataCategorieProtette": "NO",
       "DataInserimentoISO": "2025-08-29",
       "DataScadenzaISO": "2025-09-09",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/9640"
     },
     {
       "CPI": "ZAGAROLO",
@@ -157,7 +157,7 @@
       "PreselezioneRiservataCategorieProtette": "NO",
       "DataInserimentoISO": "2025-08-28",
       "DataScadenzaISO": "2025-09-02",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/9638"
     },
     {
       "CPI": "ROMA TIBURTINO",
@@ -483,23 +483,6 @@
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/9591"
     },
     {
-      "CPI": "ANZIO",
-      "ID_Richiesta": "P402S02",
-      "DataInserimento": "19/08/2025",
-      "DataScadenza": "01/09/2025",
-      "Azienda": null,
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Segretari amministrativi e tecnici degli affari generali",
-      "Mansioni": "la risorsa verrà impiegata nella gestione corrispondenza e chiamate, redazione atti amministrativi, inserimento dati nel software aziendale, analisi bilanci",
-      "ComuneSedeLavoro": "Anzio",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO   ",
-      "PreselezioneRiservataDiversamenteAbili": "NO",
-      "PreselezioneRiservataCategorieProtette": "NO",
-      "DataInserimentoISO": "2025-08-19",
-      "DataScadenzaISO": "2025-09-01",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/9583"
-    },
-    {
       "CPI": "ROMA CINECITTA'",
       "ID_Richiesta": "P1073C06",
       "DataInserimento": "19/08/2025",
@@ -515,6 +498,23 @@
       "DataInserimentoISO": "2025-08-19",
       "DataScadenzaISO": "2025-09-02",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/9584"
+    },
+    {
+      "CPI": "ANZIO",
+      "ID_Richiesta": "P402S02",
+      "DataInserimento": "19/08/2025",
+      "DataScadenza": "01/09/2025",
+      "Azienda": null,
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "Segretari amministrativi e tecnici degli affari generali",
+      "Mansioni": "la risorsa verrà impiegata nella gestione corrispondenza e chiamate, redazione atti amministrativi, inserimento dati nel software aziendale, analisi bilanci",
+      "ComuneSedeLavoro": "Anzio",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO   ",
+      "PreselezioneRiservataDiversamenteAbili": "NO",
+      "PreselezioneRiservataCategorieProtette": "NO",
+      "DataInserimentoISO": "2025-08-19",
+      "DataScadenzaISO": "2025-09-01",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/9583"
     },
     {
       "CPI": "ANZIO",
@@ -569,23 +569,6 @@
     },
     {
       "CPI": "SILD_FROSINONE",
-      "ID_Richiesta": "P27SSF",
-      "DataInserimento": "04/08/2025",
-      "DataScadenza": "03/09/2025",
-      "Azienda": "SPEMITAL - S.P.A.",
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "ordinatore di magazzino",
-      "Mansioni": "ALLESTIMENTO DI COMMISSIONI NEI MAGAZZINI D'INGROSSO MEDICINALI CON L'AUSILIO DI SUPPORTI INFORMATICI.",
-      "ComuneSedeLavoro": "Frosinone",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO   ",
-      "PreselezioneRiservataDiversamenteAbili": "SI",
-      "PreselezioneRiservataCategorieProtette": "NO",
-      "DataInserimentoISO": "2025-08-04",
-      "DataScadenzaISO": "2025-09-03",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/9560"
-    },
-    {
-      "CPI": "SILD_FROSINONE",
       "ID_Richiesta": "P26SSF",
       "DataInserimento": "04/08/2025",
       "DataScadenza": "01/09/2025",
@@ -620,6 +603,23 @@
     },
     {
       "CPI": "SILD_FROSINONE",
+      "ID_Richiesta": "P27SSF",
+      "DataInserimento": "04/08/2025",
+      "DataScadenza": "03/09/2025",
+      "Azienda": "SPEMITAL - S.P.A.",
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "ordinatore di magazzino",
+      "Mansioni": "ALLESTIMENTO DI COMMISSIONI NEI MAGAZZINI D'INGROSSO MEDICINALI CON L'AUSILIO DI SUPPORTI INFORMATICI.",
+      "ComuneSedeLavoro": "Frosinone",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO   ",
+      "PreselezioneRiservataDiversamenteAbili": "SI",
+      "PreselezioneRiservataCategorieProtette": "NO",
+      "DataInserimentoISO": "2025-08-04",
+      "DataScadenzaISO": "2025-09-03",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/9560"
+    },
+    {
+      "CPI": "SILD_FROSINONE",
       "ID_Richiesta": "P25SSF",
       "DataInserimento": "04/08/2025",
       "DataScadenza": "01/09/2025",
@@ -634,23 +634,6 @@
       "DataInserimentoISO": "2025-08-04",
       "DataScadenzaISO": "2025-09-01",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/9553"
-    },
-    {
-      "CPI": "ANAGNI",
-      "ID_Richiesta": "P127S01",
-      "DataInserimento": "01/08/2025",
-      "DataScadenza": "31/08/2025",
-      "Azienda": "SCHUCO PWS ITALIA SRL",
-      "NumeroLavoratoriRichiesti": 4,
-      "Qualifica": "PERSONALE NON QUALIFICATO DELLE ATTIVITA' INDUSTRIALI E PROFESSIONI ASSIMILATE",
-      "Mansioni": "ASSEMBLAGGIO COMPONENTI",
-      "ComuneSedeLavoro": "Paliano",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO   ",
-      "PreselezioneRiservataDiversamenteAbili": "NO",
-      "PreselezioneRiservataCategorieProtette": "NO",
-      "DataInserimentoISO": "2025-08-01",
-      "DataScadenzaISO": "2025-08-31",
-      "LinkPubblicazioneOfferta": null
     },
     {
       "CPI": "ANAGNI",
@@ -705,6 +688,23 @@
     },
     {
       "CPI": "ANAGNI",
+      "ID_Richiesta": "P127S01",
+      "DataInserimento": "01/08/2025",
+      "DataScadenza": "31/08/2025",
+      "Azienda": "SCHUCO PWS ITALIA SRL",
+      "NumeroLavoratoriRichiesti": 4,
+      "Qualifica": "PERSONALE NON QUALIFICATO DELLE ATTIVITA' INDUSTRIALI E PROFESSIONI ASSIMILATE",
+      "Mansioni": "ASSEMBLAGGIO COMPONENTI",
+      "ComuneSedeLavoro": "Paliano",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO   ",
+      "PreselezioneRiservataDiversamenteAbili": "NO",
+      "PreselezioneRiservataCategorieProtette": "NO",
+      "DataInserimentoISO": "2025-08-01",
+      "DataScadenzaISO": "2025-08-31",
+      "LinkPubblicazioneOfferta": null
+    },
+    {
+      "CPI": "ANAGNI",
       "ID_Richiesta": "P126S01",
       "DataInserimento": "01/08/2025",
       "DataScadenza": "31/08/2025",
@@ -721,37 +721,20 @@
       "LinkPubblicazioneOfferta": null
     },
     {
-      "CPI": "SORA",
-      "ID_Richiesta": "P159S13",
+      "CPI": "POGGIO MIRTETO",
+      "ID_Richiesta": "P88N07",
       "DataInserimento": "31/07/2025",
       "DataScadenza": "31/08/2025",
-      "Azienda": "ABC MULTISERVIZI SRL",
-      "NumeroLavoratoriRichiesti": 5,
-      "Qualifica": "conducente di autocarro",
-      "Mansioni": "TRASPORTO MERCI AREA GEOGRAFICA REGIONE LAZIO",
-      "ComuneSedeLavoro": "Sora",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO   ",
-      "PreselezioneRiservataDiversamenteAbili": "NO",
-      "PreselezioneRiservataCategorieProtette": "NO",
-      "DataInserimentoISO": "2025-07-31",
-      "DataScadenzaISO": "2025-08-31",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/9550"
-    },
-    {
-      "CPI": "POGGIO MIRTETO",
-      "ID_Richiesta": "P92N07",
-      "DataInserimento": "31/07/2025",
-      "DataScadenza": "30/08/2025",
       "Azienda": null,
       "NumeroLavoratoriRichiesti": 1,
       "Qualifica": "Muratori in pietra e mattoni",
-      "Mansioni": "preparazione del cantiere, trasporto e gestione dei materiali da costruzione, aiuto nella realizzazione di strutture in muratura e nella posa di elementi prefbbricati.",
+      "Mansioni": "Preparazione del cantiere, trasporto e gestione dei materiali da costruzione, aiuto nella realizzazione di strutture in muratura e nella posa di elementi prefbbricati.",
       "ComuneSedeLavoro": "Cantalupo in Sabina",
       "TipoContratto": "APPRENDISTATO PROFESSIONALIZZANTE O CONTRATTO DI MESTIERE   ",
       "PreselezioneRiservataDiversamenteAbili": "NO",
       "PreselezioneRiservataCategorieProtette": "NO",
       "DataInserimentoISO": "2025-07-31",
-      "DataScadenzaISO": "2025-08-30",
+      "DataScadenzaISO": "2025-08-31",
       "LinkPubblicazioneOfferta": null
     },
     {
@@ -789,38 +772,21 @@
       "LinkPubblicazioneOfferta": null
     },
     {
-      "CPI": "POGGIO MIRTETO",
-      "ID_Richiesta": "P88N07",
+      "CPI": "SORA",
+      "ID_Richiesta": "P159S13",
       "DataInserimento": "31/07/2025",
       "DataScadenza": "31/08/2025",
-      "Azienda": null,
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Muratori in pietra e mattoni",
-      "Mansioni": "Preparazione del cantiere, trasporto e gestione dei materiali da costruzione, aiuto nella realizzazione di strutture in muratura e nella posa di elementi prefbbricati.",
-      "ComuneSedeLavoro": "Cantalupo in Sabina",
-      "TipoContratto": "APPRENDISTATO PROFESSIONALIZZANTE O CONTRATTO DI MESTIERE   ",
+      "Azienda": "ABC MULTISERVIZI SRL",
+      "NumeroLavoratoriRichiesti": 5,
+      "Qualifica": "conducente di autocarro",
+      "Mansioni": "TRASPORTO MERCI AREA GEOGRAFICA REGIONE LAZIO",
+      "ComuneSedeLavoro": "Sora",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO   ",
       "PreselezioneRiservataDiversamenteAbili": "NO",
       "PreselezioneRiservataCategorieProtette": "NO",
       "DataInserimentoISO": "2025-07-31",
       "DataScadenzaISO": "2025-08-31",
-      "LinkPubblicazioneOfferta": null
-    },
-    {
-      "CPI": "SILD_RIETI",
-      "ID_Richiesta": "P33NSR",
-      "DataInserimento": "30/07/2025",
-      "DataScadenza": "31/08/2025",
-      "Azienda": null,
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Addetto alla piccola manutenzione",
-      "Mansioni": null,
-      "ComuneSedeLavoro": "Poggio Mirteto e/o Rieti",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO   ",
-      "PreselezioneRiservataDiversamenteAbili": "SI",
-      "PreselezioneRiservataCategorieProtette": "SI",
-      "DataInserimentoISO": "2025-07-30",
-      "DataScadenzaISO": "2025-08-31",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/9389"
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/9550"
     },
     {
       "CPI": "SILD_RIETI",
@@ -838,6 +804,23 @@
       "DataInserimentoISO": "2025-07-30",
       "DataScadenzaISO": "2025-08-31",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/9388"
+    },
+    {
+      "CPI": "SILD_RIETI",
+      "ID_Richiesta": "P33NSR",
+      "DataInserimento": "30/07/2025",
+      "DataScadenza": "31/08/2025",
+      "Azienda": null,
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "Addetto alla piccola manutenzione",
+      "Mansioni": null,
+      "ComuneSedeLavoro": "Poggio Mirteto e/o Rieti",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO   ",
+      "PreselezioneRiservataDiversamenteAbili": "SI",
+      "PreselezioneRiservataCategorieProtette": "SI",
+      "DataInserimentoISO": "2025-07-30",
+      "DataScadenzaISO": "2025-08-31",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/9389"
     },
     {
       "CPI": "SILD_RIETI",
@@ -875,6 +858,23 @@
     },
     {
       "CPI": "SILD_RIETI",
+      "ID_Richiesta": "P28NSR",
+      "DataInserimento": "18/07/2025",
+      "DataScadenza": "31/08/2025",
+      "Azienda": null,
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "Personale non qualificato delle attività industriali e professioni assimilate",
+      "Mansioni": "Operaio",
+      "ComuneSedeLavoro": "Rieti",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO   ",
+      "PreselezioneRiservataDiversamenteAbili": "SI",
+      "PreselezioneRiservataCategorieProtette": "NO",
+      "DataInserimentoISO": "2025-07-18",
+      "DataScadenzaISO": "2025-08-31",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/9345"
+    },
+    {
+      "CPI": "SILD_RIETI",
       "ID_Richiesta": "P30NSR",
       "DataInserimento": "18/07/2025",
       "DataScadenza": "31/08/2025",
@@ -906,23 +906,6 @@
       "DataInserimentoISO": "2025-07-18",
       "DataScadenzaISO": "2025-08-31",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/9346"
-    },
-    {
-      "CPI": "SILD_RIETI",
-      "ID_Richiesta": "P28NSR",
-      "DataInserimento": "18/07/2025",
-      "DataScadenza": "31/08/2025",
-      "Azienda": null,
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Personale non qualificato delle attività industriali e professioni assimilate",
-      "Mansioni": "Operaio",
-      "ComuneSedeLavoro": "Rieti",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO   ",
-      "PreselezioneRiservataDiversamenteAbili": "SI",
-      "PreselezioneRiservataCategorieProtette": "NO",
-      "DataInserimentoISO": "2025-07-18",
-      "DataScadenzaISO": "2025-08-31",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/9345"
     },
     {
       "CPI": "SILD_RIETI",
