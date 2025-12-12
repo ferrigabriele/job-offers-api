@@ -58,6 +58,9 @@ def _apply_column_aliases(df: pd.DataFrame) -> pd.DataFrame:
         "Numero lavoratori richiesti": "NumeroLavoratoriRichiesti",
         "Link pubblicazione offerta": "LinkPubblicazioneOfferta",
         "Link Pubblicazione Offerta": "LinkPubblicazioneOfferta",
+        "Modo evasione richiesta": "ModoEvasioneRichiesta",
+        "Modo Evasione Richiesta": "ModoEvasioneRichiesta",
+        "Modo evasione Richiesta": "ModoEvasioneRichiesta",
     }
 
     renamed = {}
@@ -80,10 +83,22 @@ def convert_excel_to_json(excel_bytes: BytesIO):
     df.columns = [_normalize_colname(c) for c in df.columns]
     df.dropna(how="all", inplace=True)
     df = _apply_column_aliases(df)
-
     # 3) Filtri di business (come in versione precedente)
     if "TipoPreselezione" in df.columns:
         df = df[df["TipoPreselezione"].astype(str).str.strip() == "Standard"]
+
+    # 3b) Anonimizzazione azienda quando previsto dal modo di evasione
+    # Regola: se ModoEvasioneRichiesta = "Pubblicazione anonima con preselezione",
+    # allora il nome azienda non deve essere pubblicato.
+    if "ModoEvasioneRichiesta" in df.columns and "Azienda" in df.columns:
+        mask_anon = (
+            df["ModoEvasioneRichiesta"]
+            .astype(str)
+            .str.strip()
+            .str.lower()
+            == "pubblicazione anonima con preselezione"
+        )
+        df.loc[mask_anon, "Azienda"] = "Azienda riservata"
 
     # 4) Date + ISO
     for col in ["DataInserimento", "DataScadenza"]:
