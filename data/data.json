@@ -2,10 +2,25 @@
   "meta": {
     "progetto": "SOFIA - Prototipo di assistente virtuale per i Centri per l’Impiego",
     "versione": "test",
-    "ultimo_aggiornamento": "2026-01-02",
+    "ultimo_aggiornamento": "2026-01-03",
     "avviso": "⚠️ Questo file JSON è generato a scopo di test. I dati non sono ufficiali e possono contenere errori o essere incompleti. Usare solo per prototipazione tecnica interna."
   },
   "offerte": [
+    {
+      "CPI": "SILD_ROMA",
+      "ID_Richiesta": "P500CSI",
+      "DataInserimento": "02/01/2026",
+      "DataScadenza": "16/01/2026",
+      "Azienda": "HFG SRL",
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "commesso di banco",
+      "Mansioni": "COMMESSO DI BANCO",
+      "ComuneSedeLavoro": "Roma",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "DataInserimentoISO": "2026-01-02",
+      "DataScadenzaISO": "2026-01-16",
+      "LinkPubblicazioneOfferta": null
+    },
     {
       "CPI": "SORA",
       "ID_Richiesta": "P201S13",
@@ -172,21 +187,6 @@
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11659"
     },
     {
-      "CPI": "SILD_FROSINONE",
-      "ID_Richiesta": "P78SSF",
-      "DataInserimento": "22/12/2025",
-      "DataScadenza": "06/01/2026",
-      "Azienda": "Azienda riservata",
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Commessi delle vendite al minuto",
-      "Mansioni": "ADDETTO VENDITE E MAGAZZINIERE IN SUPERMERCATO",
-      "ComuneSedeLavoro": "Atina",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "DataInserimentoISO": "2025-12-22",
-      "DataScadenzaISO": "2026-01-06",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11645"
-    },
-    {
       "CPI": "TIVOLI",
       "ID_Richiesta": "P210C13",
       "DataInserimento": "22/12/2025",
@@ -202,6 +202,21 @@
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11644"
     },
     {
+      "CPI": "SILD_FROSINONE",
+      "ID_Richiesta": "P78SSF",
+      "DataInserimento": "22/12/2025",
+      "DataScadenza": "06/01/2026",
+      "Azienda": "Azienda riservata",
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "Commessi delle vendite al minuto",
+      "Mansioni": "ADDETTO VENDITE E MAGAZZINIERE IN SUPERMERCATO",
+      "ComuneSedeLavoro": "Atina",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "DataInserimentoISO": "2025-12-22",
+      "DataScadenzaISO": "2026-01-06",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11645"
+    },
+    {
       "CPI": "ROMA CINECITTA'",
       "ID_Richiesta": "P1119C06",
       "DataInserimento": "19/12/2025",
@@ -215,21 +230,6 @@
       "DataInserimentoISO": "2025-12-19",
       "DataScadenzaISO": "2026-01-05",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11623"
-    },
-    {
-      "CPI": "RIETI",
-      "ID_Richiesta": "P371N08",
-      "DataInserimento": "19/12/2025",
-      "DataScadenza": "01/01/2026",
-      "Azienda": "CLARISSA SOCIETA' COOPERATIVA SOCIALE",
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Addetti all'accoglienza e all'informazione nelle imprese e negli enti pubblici",
-      "Mansioni": "Operatore addetto all'accoglienza di richiedenti protezione internazionale presso un centro di accoglienza straordinario a Rieti",
-      "ComuneSedeLavoro": "Rieti",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "DataInserimentoISO": "2025-12-19",
-      "DataScadenzaISO": "2026-01-01",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11624"
     },
     {
       "CPI": "MONTEROTONDO",
