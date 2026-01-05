@@ -2,10 +2,25 @@
   "meta": {
     "progetto": "SOFIA - Prototipo di assistente virtuale per i Centri per l’Impiego",
     "versione": "test",
-    "ultimo_aggiornamento": "2026-01-04",
+    "ultimo_aggiornamento": "2026-01-05",
     "avviso": "⚠️ Questo file JSON è generato a scopo di test. I dati non sono ufficiali e possono contenere errori o essere incompleti. Usare solo per prototipazione tecnica interna."
   },
   "offerte": [
+    {
+      "CPI": "SILD_ROMA",
+      "ID_Richiesta": "P500CSI",
+      "DataInserimento": "02/01/2026",
+      "DataScadenza": "16/01/2026",
+      "Azienda": "HFG SRL",
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "commesso di banco",
+      "Mansioni": "COMMESSO DI BANCO",
+      "ComuneSedeLavoro": "Roma",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "DataInserimentoISO": "2026-01-02",
+      "DataScadenzaISO": "2026-01-16",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11680"
+    },
     {
       "CPI": "SORA",
       "ID_Richiesta": "P201S13",
