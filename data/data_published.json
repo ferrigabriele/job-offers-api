@@ -2,7 +2,7 @@
   "meta": {
     "progetto": "SOFIA - Prototipo di assistente virtuale per i Centri per l’Impiego",
     "versione": "test",
-    "ultimo_aggiornamento": "2026-01-09",
+    "ultimo_aggiornamento": "2026-01-10",
     "avviso": "⚠️ Questo file JSON è generato a scopo di test. I dati non sono ufficiali e possono contenere errori o essere incompleti. Usare solo per prototipazione tecnica interna."
   },
   "offerte": [
@@ -22,19 +22,19 @@
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11660"
     },
     {
-      "CPI": "SILD_RIETI",
-      "ID_Richiesta": "P43NSR",
+      "CPI": "MONTEROTONDO",
+      "ID_Richiesta": "P512N05",
       "DataInserimento": "08/01/2026",
-      "DataScadenza": "05/02/2026",
-      "Azienda": "NATURALLY MADE OF ITALY",
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Personale non qualificato delle attività industriali e professioni assimilate",
-      "Mansioni": "Stesura della pinsa, controllo qualità e confezionamento seguendo procedure aziendali di produzione e collaborazione con i colleghi. ",
-      "ComuneSedeLavoro": "Rieti",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "DataScadenza": "22/01/2026",
+      "Azienda": "AZIENDA PLURISERVIZI MONTEROTONDO - A.P.M.",
+      "NumeroLavoratoriRichiesti": 6,
+      "Qualifica": "operatore ecologico",
+      "Mansioni": "RACCOLTA RIFIUTI PORTA A PORTA E SPAZZAMENTO MANUALE DEL TERRITORIO DEL COMNUNE ",
+      "ComuneSedeLavoro": "Monterotondo",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO",
       "DataInserimentoISO": "2026-01-08",
-      "DataScadenzaISO": "2026-02-05",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11692"
+      "DataScadenzaISO": "2026-01-22",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11691"
     },
     {
       "CPI": "SILD_RIETI",
@@ -52,49 +52,34 @@
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11693"
     },
     {
-      "CPI": "MONTEROTONDO",
-      "ID_Richiesta": "P512N05",
+      "CPI": "SILD_RIETI",
+      "ID_Richiesta": "P43NSR",
       "DataInserimento": "08/01/2026",
-      "DataScadenza": "22/01/2026",
-      "Azienda": "AZIENDA PLURISERVIZI MONTEROTONDO - A.P.M.",
-      "NumeroLavoratoriRichiesti": 6,
-      "Qualifica": "operatore ecologico",
-      "Mansioni": "RACCOLTA RIFIUTI PORTA A PORTA E SPAZZAMENTO MANUALE DEL TERRITORIO DEL COMNUNE ",
-      "ComuneSedeLavoro": "Monterotondo",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO",
+      "DataScadenza": "05/02/2026",
+      "Azienda": "NATURALLY MADE OF ITALY",
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "Personale non qualificato delle attività industriali e professioni assimilate",
+      "Mansioni": "Stesura della pinsa, controllo qualità e confezionamento seguendo procedure aziendali di produzione e collaborazione con i colleghi. ",
+      "ComuneSedeLavoro": "Rieti",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
       "DataInserimentoISO": "2026-01-08",
-      "DataScadenzaISO": "2026-01-22",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11691"
+      "DataScadenzaISO": "2026-02-05",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11692"
     },
     {
-      "CPI": "SILD_FROSINONE",
-      "ID_Richiesta": "P79SSF",
-      "DataInserimento": "07/01/2026",
-      "DataScadenza": "21/01/2026",
-      "Azienda": "GEMAD S.R.L.",
+      "CPI": "ROMA TORRE_ANGELA",
+      "ID_Richiesta": "P813C11",
+      "DataInserimento": "08/01/2026",
+      "DataScadenza": "31/01/2026",
+      "Azienda": "FISCO & LAVORO SRLS",
       "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "addetto al carico e scarico di merci",
-      "Mansioni": null,
-      "ComuneSedeLavoro": "Anagni",
+      "Qualifica": "Addetto alla contabilità",
+      "Mansioni": "tutte le mansioni proprie della qualifica sopra indicata",
+      "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "DataInserimentoISO": "2026-01-07",
-      "DataScadenzaISO": "2026-01-21",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11690"
-    },
-    {
-      "CPI": "ZAGAROLO",
-      "ID_Richiesta": "P84S14",
-      "DataInserimento": "07/01/2026",
-      "DataScadenza": "23/01/2026",
-      "Azienda": "VIMEL - S.R.L.",
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "commesso di banco - Vendita di prodotti elettrici ed elettronici",
-      "Mansioni": "Vendita diretta al banco, gestione chiamate per richiesta informazioni, ordini e consulenze tecniche, supporto nella scelta dei prodotti, gestione ordini",
-      "ComuneSedeLavoro": "San Cesareo",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "DataInserimentoISO": "2026-01-07",
-      "DataScadenzaISO": "2026-01-23",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11685"
+      "DataInserimentoISO": "2026-01-08",
+      "DataScadenzaISO": "2026-01-31",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11719"
     },
     {
       "CPI": "ZAGAROLO",
@@ -110,6 +95,21 @@
       "DataInserimentoISO": "2026-01-07",
       "DataScadenzaISO": "2026-01-14",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11686"
+    },
+    {
+      "CPI": "ZAGAROLO",
+      "ID_Richiesta": "P84S14",
+      "DataInserimento": "07/01/2026",
+      "DataScadenza": "23/01/2026",
+      "Azienda": "VIMEL - S.R.L.",
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "commesso di banco - Vendita di prodotti elettrici ed elettronici",
+      "Mansioni": "Vendita diretta al banco, gestione chiamate per richiesta informazioni, ordini e consulenze tecniche, supporto nella scelta dei prodotti, gestione ordini",
+      "ComuneSedeLavoro": "San Cesareo",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "DataInserimentoISO": "2026-01-07",
+      "DataScadenzaISO": "2026-01-23",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11685"
     },
     {
       "CPI": "SILD_ROMA",
@@ -155,6 +155,21 @@
       "DataInserimentoISO": "2026-01-07",
       "DataScadenzaISO": "2026-01-23",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11684"
+    },
+    {
+      "CPI": "SILD_FROSINONE",
+      "ID_Richiesta": "P79SSF",
+      "DataInserimento": "07/01/2026",
+      "DataScadenza": "21/01/2026",
+      "Azienda": "GEMAD S.R.L.",
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "addetto al carico e scarico di merci",
+      "Mansioni": null,
+      "ComuneSedeLavoro": "Anagni",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "DataInserimentoISO": "2026-01-07",
+      "DataScadenzaISO": "2026-01-21",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11690"
     },
     {
       "CPI": "FROSINONE",
@@ -262,21 +277,6 @@
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11662"
     },
     {
-      "CPI": "ROMA TIBURTINO",
-      "ID_Richiesta": "P961C10",
-      "DataInserimento": "23/12/2025",
-      "DataScadenza": "08/01/2026",
-      "Azienda": "Azienda riservata",
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Assistenti sociali",
-      "Mansioni": null,
-      "ComuneSedeLavoro": "Roma",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "DataInserimentoISO": "2025-12-23",
-      "DataScadenzaISO": "2026-01-08",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11661"
-    },
-    {
       "CPI": "MONTEROTONDO",
       "ID_Richiesta": "P511N05",
       "DataInserimento": "23/12/2025",
@@ -367,6 +367,21 @@
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11613"
     },
     {
+      "CPI": "MONTEROTONDO",
+      "ID_Richiesta": "P505N05",
+      "DataInserimento": "16/12/2025",
+      "DataScadenza": "12/01/2026",
+      "Azienda": "EMME GI TOUR SRL",
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "Autista di autobus",
+      "Mansioni": "trasporto persone (autobus)",
+      "ComuneSedeLavoro": "Monterotondo",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO",
+      "DataInserimentoISO": "2025-12-16",
+      "DataScadenzaISO": "2026-01-12",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11600"
+    },
+    {
       "CPI": "CIVITA CASTELLANA",
       "ID_Richiesta": "P274N03",
       "DataInserimento": "16/12/2025",
@@ -383,18 +398,18 @@
     },
     {
       "CPI": "CIVITA CASTELLANA",
-      "ID_Richiesta": "P279N03",
+      "ID_Richiesta": "P275N03",
       "DataInserimento": "16/12/2025",
       "DataScadenza": "15/01/2026",
-      "Azienda": "MAPAAL S.R.L.",
+      "Azienda": "VENERE SRLS",
       "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Ingegneri meccanici",
-      "Mansioni": "Progettista e Disegnatore tecnico",
-      "ComuneSedeLavoro": "Civita Castellana",
+      "Qualifica": "Carrozzieri",
+      "Mansioni": "Preparazione dei veicoli e delle superfici per la verniciatura; esecuzione delle operazioni di Verniciatura; smontaggio e montaggio di componenti della carrozzeria per le fasi di riparazione e finitura.",
+      "ComuneSedeLavoro": "Nepi",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
       "DataInserimentoISO": "2025-12-16",
       "DataScadenzaISO": "2026-01-15",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11590"
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11587"
     },
     {
       "CPI": "CIVITA CASTELLANA",
@@ -413,33 +428,33 @@
     },
     {
       "CPI": "CIVITA CASTELLANA",
-      "ID_Richiesta": "P275N03",
+      "ID_Richiesta": "P279N03",
       "DataInserimento": "16/12/2025",
       "DataScadenza": "15/01/2026",
-      "Azienda": "VENERE SRLS",
+      "Azienda": "MAPAAL S.R.L.",
       "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Carrozzieri",
-      "Mansioni": "Preparazione dei veicoli e delle superfici per la verniciatura; esecuzione delle operazioni di Verniciatura; smontaggio e montaggio di componenti della carrozzeria per le fasi di riparazione e finitura.",
-      "ComuneSedeLavoro": "Nepi",
+      "Qualifica": "Ingegneri meccanici",
+      "Mansioni": "Progettista e Disegnatore tecnico",
+      "ComuneSedeLavoro": "Civita Castellana",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
       "DataInserimentoISO": "2025-12-16",
       "DataScadenzaISO": "2026-01-15",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11587"
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11590"
     },
     {
-      "CPI": "MONTEROTONDO",
-      "ID_Richiesta": "P505N05",
-      "DataInserimento": "16/12/2025",
-      "DataScadenza": "12/01/2026",
-      "Azienda": "EMME GI TOUR SRL",
+      "CPI": "FROSINONE",
+      "ID_Richiesta": "P909S08",
+      "DataInserimento": "15/12/2025",
+      "DataScadenza": "14/01/2026",
+      "Azienda": "GRUPPO DAVAL SERVICE SRL",
       "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Autista di autobus",
-      "Mansioni": "trasporto persone (autobus)",
-      "ComuneSedeLavoro": "Monterotondo",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO",
-      "DataInserimentoISO": "2025-12-16",
-      "DataScadenzaISO": "2026-01-12",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11600"
+      "Qualifica": "addetto alle funzioni amministrative",
+      "Mansioni": null,
+      "ComuneSedeLavoro": "Alatri",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "DataInserimentoISO": "2025-12-15",
+      "DataScadenzaISO": "2026-01-14",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11580"
     },
     {
       "CPI": "MONTEROTONDO",
@@ -470,51 +485,6 @@
       "DataInserimentoISO": "2025-12-15",
       "DataScadenzaISO": "2026-01-14",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11581"
-    },
-    {
-      "CPI": "FROSINONE",
-      "ID_Richiesta": "P909S08",
-      "DataInserimento": "15/12/2025",
-      "DataScadenza": "14/01/2026",
-      "Azienda": "GRUPPO DAVAL SERVICE SRL",
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "addetto alle funzioni amministrative",
-      "Mansioni": null,
-      "ComuneSedeLavoro": "Alatri",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "DataInserimentoISO": "2025-12-15",
-      "DataScadenzaISO": "2026-01-14",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11580"
-    },
-    {
-      "CPI": "COLLEFERRO",
-      "ID_Richiesta": "P202S05",
-      "DataInserimento": "12/12/2025",
-      "DataScadenza": "08/01/2026",
-      "Azienda": "M.S. SERVIZI - SOCIETA' A RESPONSABILITA' LIMITATA",
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "addetto alle funzioni amministrative",
-      "Mansioni": "Impiegato amministrativo",
-      "ComuneSedeLavoro": "Artena",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "DataInserimentoISO": "2025-12-12",
-      "DataScadenzaISO": "2026-01-08",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11552"
-    },
-    {
-      "CPI": "SILD_RIETI",
-      "ID_Richiesta": "P42NSR",
-      "DataInserimento": "12/12/2025",
-      "DataScadenza": "08/01/2026",
-      "Azienda": "Azienda riservata",
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Personale non qualificato delle attività industriali e professioni assimilate",
-      "Mansioni": "Conduttore macchine - Carico e scarico",
-      "ComuneSedeLavoro": "Cittaducale",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "DataInserimentoISO": "2025-12-12",
-      "DataScadenzaISO": "2026-01-08",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11551"
     }
   ]
 }
