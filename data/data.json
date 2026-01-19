@@ -2,7 +2,7 @@
   "meta": {
     "progetto": "SOFIA - Prototipo di assistente virtuale per i Centri per l’Impiego",
     "versione": "test",
-    "ultimo_aggiornamento": "2026-01-18",
+    "ultimo_aggiornamento": "2026-01-19",
     "avviso": "⚠️ Questo file JSON è generato a scopo di test. I dati non sono ufficiali e possono contenere errori o essere incompleti. Usare solo per prototipazione tecnica interna."
   },
   "offerte": [
@@ -19,7 +19,7 @@
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
       "DataInserimentoISO": "2026-01-16",
       "DataScadenzaISO": "2026-01-31",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11831"
     },
     {
       "CPI": "ROMA TIBURTINO",
@@ -34,7 +34,7 @@
       "TipoContratto": "TIROCINIO",
       "DataInserimentoISO": "2026-01-16",
       "DataScadenzaISO": "2026-01-30",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11827"
     },
     {
       "CPI": "ROMA TIBURTINO",
@@ -49,7 +49,7 @@
       "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
       "DataInserimentoISO": "2026-01-16",
       "DataScadenzaISO": "2026-01-30",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11829"
     },
     {
       "CPI": "SILD_LATINA",
@@ -64,7 +64,7 @@
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
       "DataInserimentoISO": "2026-01-16",
       "DataScadenzaISO": "2026-01-31",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11836"
     },
     {
       "CPI": "SILD_LATINA",
@@ -79,7 +79,7 @@
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
       "DataInserimentoISO": "2026-01-16",
       "DataScadenzaISO": "2026-01-31",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11835"
     },
     {
       "CPI": "PALESTRINA",
@@ -94,7 +94,7 @@
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
       "DataInserimentoISO": "2026-01-16",
       "DataScadenzaISO": "2026-01-25",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11824"
     },
     {
       "CPI": "SILD_LATINA",
@@ -109,7 +109,7 @@
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
       "DataInserimentoISO": "2026-01-16",
       "DataScadenzaISO": "2026-01-31",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11834"
     },
     {
       "CPI": "VITERBO",
@@ -124,7 +124,7 @@
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
       "DataInserimentoISO": "2026-01-16",
       "DataScadenzaISO": "2026-01-31",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11830"
     },
     {
       "CPI": "VELLETRI",
@@ -139,7 +139,7 @@
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
       "DataInserimentoISO": "2026-01-16",
       "DataScadenzaISO": "2026-01-31",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11825"
     },
     {
       "CPI": "SILD_LATINA",
@@ -154,7 +154,7 @@
       "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
       "DataInserimentoISO": "2026-01-16",
       "DataScadenzaISO": "2026-01-31",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11833"
     },
     {
       "CPI": "SILD_LATINA",
@@ -169,7 +169,7 @@
       "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
       "DataInserimentoISO": "2026-01-16",
       "DataScadenzaISO": "2026-01-31",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11832"
     },
     {
       "CPI": "MONTEROTONDO",
@@ -184,7 +184,7 @@
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
       "DataInserimentoISO": "2026-01-16",
       "DataScadenzaISO": "2026-01-30",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11826"
     },
     {
       "CPI": "ROMA TIBURTINO",
@@ -199,7 +199,7 @@
       "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
       "DataInserimentoISO": "2026-01-16",
       "DataScadenzaISO": "2026-01-30",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11828"
     },
     {
       "CPI": "MONTEROTONDO",
@@ -214,7 +214,7 @@
       "TipoContratto": "NON DEFINITO",
       "DataInserimentoISO": "2026-01-15",
       "DataScadenzaISO": "2026-01-31",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11817"
     },
     {
       "CPI": "MONTEROTONDO",
@@ -229,7 +229,7 @@
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
       "DataInserimentoISO": "2026-01-15",
       "DataScadenzaISO": "2026-01-31",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11818"
     },
     {
       "CPI": "MONTEROTONDO",
@@ -244,7 +244,7 @@
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
       "DataInserimentoISO": "2026-01-15",
       "DataScadenzaISO": "2026-01-31",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11819"
     },
     {
       "CPI": "MONTEROTONDO",
@@ -259,7 +259,7 @@
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
       "DataInserimentoISO": "2026-01-15",
       "DataScadenzaISO": "2026-01-31",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11820"
     },
     {
       "CPI": "ROMA TIBURTINO",
@@ -274,7 +274,7 @@
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
       "DataInserimentoISO": "2026-01-15",
       "DataScadenzaISO": "2026-01-29",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11823"
     },
     {
       "CPI": "ROMA TIBURTINO",
@@ -289,7 +289,7 @@
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
       "DataInserimentoISO": "2026-01-15",
       "DataScadenzaISO": "2026-01-29",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11822"
     },
     {
       "CPI": "COLLEFERRO",
@@ -349,7 +349,7 @@
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
       "DataInserimentoISO": "2026-01-15",
       "DataScadenzaISO": "2026-01-22",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11821"
     },
     {
       "CPI": "MONTEROTONDO",
