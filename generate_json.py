@@ -36,13 +36,11 @@ def _find_header_row(excel_bytes: BytesIO, probe_rows: int = 20) -> int:
     excel_bytes.seek(0)
     raw = pd.read_excel(excel_bytes, header=None, nrows=probe_rows)
 
-    # Cerca nelle prime colonne una cella esattamente uguale a ID_Richiesta
     for i in range(len(raw)):
         row = raw.iloc[i].astype(str)
         if any(_normalize_colname(v) == "ID_Richiesta" for v in row.values):
             return i
 
-    # Fallback: se non trovato, usa la prima riga (comportamento precedente)
     return 0
 
 
@@ -61,6 +59,9 @@ def _apply_column_aliases(df: pd.DataFrame) -> pd.DataFrame:
         "Modo evasione richiesta": "ModoEvasioneRichiesta",
         "Modo Evasione Richiesta": "ModoEvasioneRichiesta",
         "Modo evasione Richiesta": "ModoEvasioneRichiesta",
+        "CategoriaRiserva": "CategoriaRiserva",
+        "Categoria Riserva": "CategoriaRiserva",
+        "Categoria riserva": "CategoriaRiserva",
     }
 
     renamed = {}
@@ -68,8 +69,7 @@ def _apply_column_aliases(df: pd.DataFrame) -> pd.DataFrame:
         cn = _normalize_colname(c)
         renamed[c] = aliases.get(cn, cn)
 
-    df = df.rename(columns=renamed)
-    return df
+    return df.rename(columns=renamed)
 
 
 def convert_excel_to_json(excel_bytes: BytesIO):
@@ -83,6 +83,7 @@ def convert_excel_to_json(excel_bytes: BytesIO):
     df.columns = [_normalize_colname(c) for c in df.columns]
     df.dropna(how="all", inplace=True)
     df = _apply_column_aliases(df)
+
     # 3) Filtri di business (come in versione precedente)
     if "TipoPreselezione" in df.columns:
         df = df[df["TipoPreselezione"].astype(str).str.strip() == "Standard"]
@@ -110,14 +111,34 @@ def convert_excel_to_json(excel_bytes: BytesIO):
     if "DataInserimentoISO" in df.columns:
         df.sort_values(by="DataInserimentoISO", ascending=False, inplace=True)
 
-    # 5) Derivazioni riservatezza (compatibile con versioni precedenti)
-    if "PreselezioneRiservata" in df.columns:
-        df["PreselezioneRiservataDiversamenteAbili"] = df["PreselezioneRiservata"].apply(
-            lambda x: "SI" if isinstance(x, str) and "art 1" in x.lower() else "NO"
-        )
-        df["PreselezioneRiservataCategorieProtette"] = df["PreselezioneRiservata"].apply(
-            lambda x: "SI" if isinstance(x, str) and "art 18" in x.lower() else "NO"
-        )
+    # 5) Campo di riserva (nuova colonna CategoriaRiserva)
+    # Output richiesto: creare il campo "Preselezione Riservata" nei JSON.
+    if "CategoriaRiserva" in df.columns:
+        def _map_riserva(v):
+            if v is None or (isinstance(v, float) and np.isnan(v)):
+                return None
+            s = str(v).strip()
+            if not s or s.lower() in {"nan", "none"}:
+                return None
+            sl = s.lower()
+
+            # Caso "entrambi"
+            if "entrambi" in sl or ("art 1" in sl and "art 18" in sl):
+                return "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99"
+            if "art 1" in sl:
+                return "Disabili art 1 Legge 68/99"
+            if "art 18" in sl:
+                return "Categorie protette art 18 Legge 68/99"
+
+            return s
+
+        df["Preselezione Riservata"] = df["CategoriaRiserva"].apply(_map_riserva)
+    else:
+        # Retro-compatibilità se dovesse riapparire una colonna precedente
+        if "PreselezioneRiservata" in df.columns:
+            df["Preselezione Riservata"] = df["PreselezioneRiservata"].apply(
+                lambda x: None if (pd.isna(x)) else str(x).strip()
+            )
 
     # 6) Selezione campi di output (come prima)
     campi_finali = [
@@ -131,14 +152,12 @@ def convert_excel_to_json(excel_bytes: BytesIO):
         "Mansioni",
         "ComuneSedeLavoro",
         "TipoContratto",
-        "PreselezioneRiservataDiversamenteAbili",
-        "PreselezioneRiservataCategorieProtette",
+        "Preselezione Riservata",
         "DataInserimentoISO",
         "DataScadenzaISO",
         "LinkPubblicazioneOfferta",
     ]
 
-    # (mantiene solo i campi presenti per non rompersi se qualcosa manca)
     df = df[[c for c in campi_finali if c in df.columns]]
 
     # 7) Serializzazione pulita (NaN -> None)
