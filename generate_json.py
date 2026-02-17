@@ -152,7 +152,7 @@ def convert_excel_to_json(excel_bytes: BytesIO):
         "Mansioni",
         "ComuneSedeLavoro",
         "TipoContratto",
-        "Preselezione Riservata",
+        "Preselezione riservata",
         "DataInserimentoISO",
         "DataScadenzaISO",
         "LinkPubblicazioneOfferta",
