@@ -1,9 +1,9 @@
 {
   "meta": {
     "progetto": "SOFIA - Prototipo di assistente virtuale per i Centri per l’Impiego",
-    "versione": "test",
+    "versione": "debug",
     "ultimo_aggiornamento": "2026-02-24",
-    "avviso": "⚠️ Questo file JSON è generato a scopo di test. I dati non sono ufficiali e possono contenere errori o essere incompleti. Usare solo per prototipazione tecnica interna."
+    "avviso": "⚠️ Questo file JSON è generato a scopo di test/debug. I dati non sono ufficiali e possono contenere errori o essere incompleti. Usare solo per prototipazione tecnica interna."
   },
   "offerte": [
     {
@@ -17,6 +17,7 @@
       "Mansioni": "gestione della'genda, telefonate e reception.",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "TIROCINIO",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-23",
       "DataScadenzaISO": "2026-03-06",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12280"
@@ -32,6 +33,7 @@
       "Mansioni": "MECCATRONICO",
       "ComuneSedeLavoro": null,
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-23",
       "DataScadenzaISO": "2026-03-10",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12274"
@@ -47,6 +49,7 @@
       "Mansioni": null,
       "ComuneSedeLavoro": "Monte San Giovanni Campano",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-23",
       "DataScadenzaISO": "2026-03-08",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12283"
@@ -62,6 +65,7 @@
       "Mansioni": "RECEPTIONIST",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO",
+      "Preselezione Riservata": "Disabili art 1 Legge 68/99",
       "DataInserimentoISO": "2026-02-23",
       "DataScadenzaISO": "2026-02-27",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12281"
@@ -77,6 +81,7 @@
       "Mansioni": "Fornire supporto tecnico alle attività di installazione e progettazione, curando gli aspetti dimensionali, strutturali ed elettrici degli interventi.",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "APPRENDISTATO PA",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-23",
       "DataScadenzaISO": "2026-03-14",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12269"
@@ -92,6 +97,7 @@
       "Mansioni": "Eseguire attività di installazione, manutenzione e trasporto di apparecchiature tecnologiche (ATM, digital signage, kiosk) presso i siti dei clienti su tutto il territorio nazionale",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-23",
       "DataScadenzaISO": "2026-03-14",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12282"
@@ -107,6 +113,7 @@
       "Mansioni": "ASSISTENTE UFFICIO RISORSE UMANE",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-23",
       "DataScadenzaISO": "2026-03-06",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12095"
@@ -122,6 +129,7 @@
       "Mansioni": null,
       "ComuneSedeLavoro": "Monte Compatri",
       "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
+      "Preselezione Riservata": "Disabili art 1 Legge 68/99",
       "DataInserimentoISO": "2026-02-23",
       "DataScadenzaISO": "2026-03-20",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12279"
@@ -137,6 +145,7 @@
       "Mansioni": "INSTALLAZIONI E RIPARAZIONI DI IMPIANTI TERMOIDRAULICI",
       "ComuneSedeLavoro": "Rocca di Papa",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-23",
       "DataScadenzaISO": "2026-03-20",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12278"
@@ -152,6 +161,7 @@
       "Mansioni": "programmatori e analisti software con competenze sistemistiche e di supporto agli applicativi software",
       "ComuneSedeLavoro": "Latina",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-23",
       "DataScadenzaISO": "2026-03-10",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12284"
@@ -167,6 +177,7 @@
       "Mansioni": "OPERAIO ADDETTO ALLA PRODUZIONE/RIFINITURA/SPEDIZIONE DI ALLINEATORI DENTALI",
       "ComuneSedeLavoro": "San Cesareo",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": "Disabili art 1 Legge 68/99",
       "DataInserimentoISO": "2026-02-23",
       "DataScadenzaISO": "2026-03-04",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12216"
@@ -182,6 +193,7 @@
       "Mansioni": "PIANIFICAZIONE STRATEGICA DELLA RETE DI VENDITA DIRETTA O ONLINE; GESTIONE B2B; GARE PUBBLICHE, MEPA.",
       "ComuneSedeLavoro": "Alatri",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": "Disabili art 1 Legge 68/99",
       "DataInserimentoISO": "2026-02-23",
       "DataScadenzaISO": "2026-03-23",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12273"
@@ -197,6 +209,7 @@
       "Mansioni": "giunzioni e terminazioni su cavi aerei e interrati in rame; apprestamenti di cantiere; controllo dei rischi connessi all’attività.\n\nNOTA: Sono previste 2 settimane di formazione per le risorse che aderiscono alla ricerca, che si svolgerà a Bologna (sarà offerto il soggiorno in hotel).  A fine corso sono previsti gli attestati e le risorse verranno inseriti in azienda con un contratto a tempo determinato in somministrazione di 3 mesi, prorogabili.",
       "ComuneSedeLavoro": "Monterotondo",
       "TipoContratto": "CONTRATTO DI SOMMINISTRAZIONE (ex LAVORO INTERINALE)",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-23",
       "DataScadenzaISO": "2026-03-09",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12271"
@@ -212,6 +225,7 @@
       "Mansioni": "aiuto cuoco",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": "Disabili art 1 Legge 68/99",
       "DataInserimentoISO": "2026-02-21",
       "DataScadenzaISO": "2026-03-06",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12277"
@@ -227,6 +241,7 @@
       "Mansioni": "COMMIS DI SALA",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-21",
       "DataScadenzaISO": "2026-03-06",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12266"
@@ -242,6 +257,7 @@
       "Mansioni": "AIUTO CUOCO",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-21",
       "DataScadenzaISO": "2026-03-06",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12268"
@@ -257,6 +273,7 @@
       "Mansioni": "commis di sala",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-21",
       "DataScadenzaISO": "2026-03-06",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12267"
@@ -272,6 +289,7 @@
       "Mansioni": "commis di sala",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": "Disabili art 1 Legge 68/99",
       "DataInserimentoISO": "2026-02-21",
       "DataScadenzaISO": "2026-03-06",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12276"
@@ -287,6 +305,7 @@
       "Mansioni": "commis di sala",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": "Disabili art 1 Legge 68/99",
       "DataInserimentoISO": "2026-02-21",
       "DataScadenzaISO": "2026-03-06",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12275"
@@ -302,6 +321,7 @@
       "Mansioni": "Svolge attività di controllo di cantiere con supporto del direttore tecnico.",
       "ComuneSedeLavoro": "Artena",
       "TipoContratto": "APPRENDISTATO PROFESSIONALIZZANTE O CONTRATTO DI MESTIERE",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-20",
       "DataScadenzaISO": "2026-03-12",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12256"
@@ -317,6 +337,7 @@
       "Mansioni": "DIRIGENTE DELLE PROFESSIONI SANITARIE INFERMIERISTICHE  - ISCRIZIONE ORDINE PROFESSIONI INFERMIERISTICHE (INDISPENSABILE)",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-20",
       "DataScadenzaISO": "2026-03-07",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12262"
@@ -332,6 +353,7 @@
       "Mansioni": null,
       "ComuneSedeLavoro": "Tivoli",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-20",
       "DataScadenzaISO": "2026-03-09",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12259"
@@ -347,6 +369,7 @@
       "Mansioni": "manutenzione e riparazione di impianti idraulici e di condizionamento",
       "ComuneSedeLavoro": "Castel Viscardo",
       "TipoContratto": "APPRENDISTATO PROFESSIONALIZZANTE O CONTRATTO DI MESTIERE",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-20",
       "DataScadenzaISO": "2026-03-08",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12264"
@@ -362,6 +385,7 @@
       "Mansioni": "manutenzione e riparazione di impianti idraulici e di condizionamento",
       "ComuneSedeLavoro": "Castel Viscardo",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-20",
       "DataScadenzaISO": "2026-03-08",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12263"
@@ -377,6 +401,7 @@
       "Mansioni": null,
       "ComuneSedeLavoro": "TOFFIA",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-20",
       "DataScadenzaISO": "2026-03-07",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12258"
@@ -392,6 +417,7 @@
       "Mansioni": null,
       "ComuneSedeLavoro": "POGGIO MIRTETO",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-20",
       "DataScadenzaISO": "2026-03-07",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12257"
@@ -407,6 +433,7 @@
       "Mansioni": "miscelazione delle materie prime e preparazione del bulk sia di prodotti liquidi che solidi e utilizzo delle relative attrezzature; preparazione di semilavorati, ovuli e altre forme farmaceutiche tramite macchinari specifici.",
       "ComuneSedeLavoro": "Sgurgola",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-20",
       "DataScadenzaISO": "2026-03-19",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12265"
@@ -422,6 +449,7 @@
       "Mansioni": null,
       "ComuneSedeLavoro": "Latina",
       "TipoContratto": "APPRENDISTATO PROFESSIONALIZZANTE O CONTRATTO DI MESTIERE",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-20",
       "DataScadenzaISO": "2026-03-21",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12261"
@@ -437,6 +465,7 @@
       "Mansioni": "Gestione operativa del magazzino; Ricezione e stoccaggio merci;\n\nControllo del materiale in ingresso; Monitoraggio giacenze.",
       "ComuneSedeLavoro": "CIVITA CASTELLANA",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-20",
       "DataScadenzaISO": "2026-03-13",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12260"
@@ -452,6 +481,7 @@
       "Mansioni": "Inserimento fatture; liquidazioni iva; gestione documenti contabili",
       "ComuneSedeLavoro": "Monterotondo",
       "TipoContratto": "NON DEFINITO",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-19",
       "DataScadenzaISO": "2026-03-05",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12251"
@@ -467,6 +497,7 @@
       "Mansioni": null,
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-19",
       "DataScadenzaISO": "2026-03-05",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12255"
@@ -482,6 +513,7 @@
       "Mansioni": "Realizzazione e montaggio insegne e materiale pubblicitario",
       "ComuneSedeLavoro": "Capena",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-19",
       "DataScadenzaISO": "2026-03-05",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12252"
@@ -497,6 +529,7 @@
       "Mansioni": "Attività finanziata alla gestione,implementazione e monitoraggio dei sistemi di qualità aziendale e delle procedure di salute e sicurezza nei luoghi di lavoro, nel rispetto delle normative vigenti.",
       "ComuneSedeLavoro": "Artena",
       "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-19",
       "DataScadenzaISO": "2026-03-12",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12244"
@@ -512,6 +545,7 @@
       "Mansioni": "richiesta conoscenza del pacchetto office",
       "ComuneSedeLavoro": "Artena",
       "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-19",
       "DataScadenzaISO": "2026-03-11",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12217"
@@ -527,6 +561,7 @@
       "Mansioni": null,
       "ComuneSedeLavoro": "Guidonia Montecelio",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-19",
       "DataScadenzaISO": "2026-02-27",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12249"
@@ -542,6 +577,7 @@
       "Mansioni": null,
       "ComuneSedeLavoro": "Tolfa",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-19",
       "DataScadenzaISO": "2026-03-05",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12246"
@@ -557,6 +593,7 @@
       "Mansioni": "ESCAVATORISTA",
       "ComuneSedeLavoro": "Tolfa",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-19",
       "DataScadenzaISO": "2026-03-05",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12247"
@@ -572,6 +609,7 @@
       "Mansioni": "MANOVALE",
       "ComuneSedeLavoro": "Tolfa",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-19",
       "DataScadenzaISO": "2026-03-05",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12248"
@@ -587,6 +625,7 @@
       "Mansioni": "Realizzazione di tramezzi, pittura, rasatura, cartongesso.",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-19",
       "DataScadenzaISO": "2026-03-19",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12254"
@@ -602,6 +641,7 @@
       "Mansioni": "fare impianti idraulici",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-19",
       "DataScadenzaISO": "2026-03-19",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12253"
@@ -617,6 +657,7 @@
       "Mansioni": "Gestione del ciclo attivo e passivo dei fondi\npensione; Inserimento e gestione delle adesioni; Attività di consulenza tramite e-mail verso iscritti e intermediari\n",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
+      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-19",
       "DataScadenzaISO": "2026-02-23",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12086"
@@ -632,6 +673,7 @@
       "Mansioni": null,
       "ComuneSedeLavoro": "Gallicano nel Lazio",
       "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-19",
       "DataScadenzaISO": "2026-02-27",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12245"
@@ -647,6 +689,7 @@
       "Mansioni": null,
       "ComuneSedeLavoro": "San Polo dei Cavalieri",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-19",
       "DataScadenzaISO": "2026-03-04",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12250"
@@ -662,6 +705,7 @@
       "Mansioni": "Perizie",
       "ComuneSedeLavoro": "Monterotondo",
       "TipoContratto": "TIROCINIO",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-18",
       "DataScadenzaISO": "2026-03-02",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12221"
@@ -677,6 +721,7 @@
       "Mansioni": null,
       "ComuneSedeLavoro": "Monterotondo",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-18",
       "DataScadenzaISO": "2026-03-04",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12231"
@@ -692,6 +737,7 @@
       "Mansioni": "AUTISTA - CONSEGNA MERCI REFRIGERATE E NON",
       "ComuneSedeLavoro": "Genzano di Roma",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-18",
       "DataScadenzaISO": "2026-03-09",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12218"
@@ -707,6 +753,7 @@
       "Mansioni": null,
       "ComuneSedeLavoro": "Albano Laziale",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-18",
       "DataScadenzaISO": "2026-03-04",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12219"
@@ -722,6 +769,7 @@
       "Mansioni": null,
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "NON DEFINITO",
+      "Preselezione Riservata": "Disabili art 1 Legge 68/99",
       "DataInserimentoISO": "2026-02-18",
       "DataScadenzaISO": "2026-02-25",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12236"
@@ -737,6 +785,7 @@
       "Mansioni": "svolge attività di supporto alla funzione commerciale, curando i rapporti con la clientela, la gestione degli ordini e la presisposizione di offerte e preventivi",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-18",
       "DataScadenzaISO": "2026-02-23",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12232"
@@ -752,6 +801,7 @@
       "Mansioni": "ANALISTA MARKETING",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "NON DEFINITO",
+      "Preselezione Riservata": "Disabili art 1 Legge 68/99",
       "DataInserimentoISO": "2026-02-18",
       "DataScadenzaISO": "2026-02-25",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12235"
@@ -767,6 +817,7 @@
       "Mansioni": null,
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-18",
       "DataScadenzaISO": "2026-02-23",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12234"
@@ -782,6 +833,7 @@
       "Mansioni": "TECNICI INFORMATICI, TELEMATICI E DELLE TELECOMUNICAZIONI",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "NON DEFINITO",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-18",
       "DataScadenzaISO": "2026-02-23",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12233"
@@ -797,6 +849,7 @@
       "Mansioni": "Responsabile della preparazione, cottura e cura dei piatti, curando l'intero ciclo produttivo, dalla materia prima al prodotto finito. La figura richiesta deve essere in grado di assicurare il servizio di cucina in presenza e in assenza del capo, approntando i pasti sulla base del lavoro predisposto ",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": "Disabili art 1 Legge 68/99",
       "DataInserimentoISO": "2026-02-17",
       "DataScadenzaISO": "2026-03-07",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12208"
@@ -812,6 +865,7 @@
       "Mansioni": null,
       "ComuneSedeLavoro": "Bracciano",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-17",
       "DataScadenzaISO": "2026-03-03",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12212"
@@ -827,6 +881,7 @@
       "Mansioni": "Manutenzione impianti elettrici, attività di pronto intervento, lavori presso cantieri siti nel territorio nazionale per impianti fotovoltaivi ed elettrici",
       "ComuneSedeLavoro": "Viterbo",
       "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-17",
       "DataScadenzaISO": "2026-03-03",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12206"
@@ -842,6 +897,7 @@
       "Mansioni": null,
       "ComuneSedeLavoro": "Palestrina",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-17",
       "DataScadenzaISO": "2026-02-23",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12210"
@@ -857,6 +913,7 @@
       "Mansioni": "installazione e manutenzione di impianti elettrici industriali ",
       "ComuneSedeLavoro": "Velletri",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-17",
       "DataScadenzaISO": "2026-03-03",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12215"
@@ -872,6 +929,7 @@
       "Mansioni": "operaio non qualificato di cantiere mobile temporaneo, addetto a lavori generici e di fatica con patente c+cqc+carta tachigrafa",
       "ComuneSedeLavoro": "Velletri",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-17",
       "DataScadenzaISO": "2026-03-03",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12211"
@@ -887,6 +945,7 @@
       "Mansioni": "Guida trattore agricolo e manutenzione del verde e piscine dell'agriturismo.",
       "ComuneSedeLavoro": "Montalto di Castro",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-17",
       "DataScadenzaISO": "2026-03-11",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12213"
@@ -902,6 +961,7 @@
       "Mansioni": "Gestione agenda per appuntamenti e richieste danni assicurativi",
       "ComuneSedeLavoro": "Monterotondo",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-02-17",
       "DataScadenzaISO": "2026-02-23",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12207"
