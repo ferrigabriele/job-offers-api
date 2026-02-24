@@ -1979,7 +1979,7 @@
       "Azienda": "Azienda riservata",
       "NumeroLavoratoriRichiesti": 1,
       "Qualifica": "Commessi delle vendite al minuto",
-      "Mansioni": null,
+      "Mansioni": "#ERROR!",
       "ComuneSedeLavoro": "Valmontone",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
       "DataInserimentoISO": "2026-02-03",
