@@ -4,6 +4,7 @@ from io import BytesIO
 import os
 import json
 import numpy as np
+import re
 
 # ---------------------------------------------------------------------------
 # CONFIG
@@ -14,9 +15,9 @@ OUTPUT_PATH_MIN = "data/data_min.json"
 OUTPUT_PATH_PUBLISHED = "data/data_published.json"
 
 # Debug
-DEBUG = True
+DEBUG = False
 # Se l'Excel ha più fogli e l'ordine cambia, imposta qui il nome ESATTO del foglio corretto.
-# Esempio: FORCE_SHEET_NAME = "PreselezioniAttive"
+# Esempio: FORCE_SHEET_NAME = "Foglio1"
 FORCE_SHEET_NAME = None
 
 # ---------------------------------------------------------------------------
@@ -83,22 +84,6 @@ def _apply_column_aliases(df: pd.DataFrame) -> pd.DataFrame:
     return df.rename(columns=renamed)
 
 
-def _debug_print_columns(df: pd.DataFrame):
-    if not DEBUG:
-        return
-    cols = list(df.columns)
-    print("DEBUG | Numero colonne:", len(cols))
-    print("DEBUG | Prime 50 colonne:", cols[:50])
-    # Mostra SOLO quelle che contengono 'Categoria' per diagnosi rapida
-    categoria_cols = [c for c in cols if "categoria" in str(c).lower()]
-    print("DEBUG | Colonne che contengono 'Categoria':", [repr(c) for c in categoria_cols])
-    print("DEBUG | Ha CategoriaRiserva?:", "CategoriaRiserva" in cols)
-    # Gestione eventuali duplicati / suffissi .1
-    similari = [c for c in cols if str(c).startswith("CategoriaRiserva")]
-    if similari:
-        print("DEBUG | Colonne che iniziano con 'CategoriaRiserva':", [repr(c) for c in similari])
-
-
 def _pick_categoria_riserva_column(df: pd.DataFrame) -> str | None:
     """Sceglie la colonna da usare per la riserva.
 
@@ -113,7 +98,6 @@ def _pick_categoria_riserva_column(df: pd.DataFrame) -> str | None:
 
     starts = [c for c in cols if str(c).startswith("CategoriaRiserva")]
     if starts:
-        # se c'è 'CategoriaRiserva.1' preferiamo comunque la prima
         return starts[0]
 
     contains = [c for c in cols if ("categoria" in str(c).lower() and "riserva" in str(c).lower())]
@@ -124,22 +108,30 @@ def _pick_categoria_riserva_column(df: pd.DataFrame) -> str | None:
 
 
 def _map_riserva(v):
+    """Mappa CategoriaRiserva in un valore stabile per 'Preselezione Riservata'.
+
+    Importante: 'art 1' è sottostringa di 'art 18' (es. 'art 18' contiene 'art 1'),
+    quindi usiamo regex con word boundary per evitare falsi positivi.
+    """
     if v is None or (isinstance(v, float) and np.isnan(v)):
         return None
+
     s = str(v).strip()
     if not s or s.lower() in {"nan", "none"}:
         return None
 
     sl = s.lower()
+    has_art1 = re.search(r"art\s*1\b", sl) is not None
+    has_art18 = re.search(r"art\s*18\b", sl) is not None
 
-    # Caso "entrambi"
-    if "entrambi" in sl or ("art 1" in sl and "art 18" in sl):
+    if "entrambi" in sl or (has_art1 and has_art18):
         return "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99"
-    if "art 1" in sl:
+    if has_art1:
         return "Disabili art 1 Legge 68/99"
-    if "art 18" in sl:
+    if has_art18:
         return "Categorie protette art 18 Legge 68/99"
 
+    # Fallback: mantieni il valore originale (trim) per non perdere informazione
     return s
 
 
@@ -148,83 +140,53 @@ def _map_riserva(v):
 # ---------------------------------------------------------------------------
 
 def convert_excel_to_json(excel_bytes: BytesIO):
-    # 1) Header row detection + sheet selection
     header_row = _find_header_row(excel_bytes)
 
     excel_bytes.seek(0)
     xl = pd.ExcelFile(excel_bytes)
+    sheet_to_use = FORCE_SHEET_NAME if FORCE_SHEET_NAME else 0
 
     if DEBUG:
         print("DEBUG | Sheets disponibili:", xl.sheet_names)
         print("DEBUG | Header row rilevata:", header_row)
-
-    sheet_to_use = FORCE_SHEET_NAME if FORCE_SHEET_NAME else 0
-    if DEBUG:
         print("DEBUG | Sheet usato:", sheet_to_use)
 
     excel_bytes.seek(0)
     df = pd.read_excel(excel_bytes, header=header_row, sheet_name=sheet_to_use)
 
-    # 2) Pulizia base
+    # Pulizia
     df.columns = [_normalize_colname(c) for c in df.columns]
     df.dropna(how="all", inplace=True)
     df = _apply_column_aliases(df)
 
-    if DEBUG:
-        _debug_print_columns(df)
-
-    # 3) Filtri di business
+    # Filtro business
     if "TipoPreselezione" in df.columns:
-        before = len(df)
         df = df[df["TipoPreselezione"].astype(str).str.strip() == "Standard"]
-        if DEBUG:
-            print("DEBUG | Filtro TipoPreselezione=Standard:", before, "->", len(df))
-    else:
-        if DEBUG:
-            print("DEBUG | ATTENZIONE: colonna TipoPreselezione non trovata")
 
-    # 3b) Anonimizzazione azienda
+    # Anonimizzazione azienda
     if "ModoEvasioneRichiesta" in df.columns and "Azienda" in df.columns:
         mask_anon = (
             df["ModoEvasioneRichiesta"].astype(str).str.strip().str.lower()
             == "pubblicazione anonima con preselezione"
         )
-        if DEBUG:
-            print("DEBUG | Righe con pubblicazione anonima:", int(mask_anon.sum()))
         df.loc[mask_anon, "Azienda"] = "Azienda riservata"
-    else:
-        if DEBUG:
-            print("DEBUG | INFO: non posso anonimizzare (manca ModoEvasioneRichiesta o Azienda)")
 
-    # 4) Date + ISO
+    # Date + ISO
     for col in ["DataInserimento", "DataScadenza"]:
         if col in df.columns:
             df[col] = pd.to_datetime(df[col], errors="coerce")
             df[f"{col}ISO"] = df[col].dt.strftime("%Y-%m-%d")
             df[col] = df[col].dt.strftime("%d/%m/%Y")
-        else:
-            if DEBUG:
-                print(f"DEBUG | INFO: colonna {col} non trovata")
 
     if "DataInserimentoISO" in df.columns:
         df.sort_values(by="DataInserimentoISO", ascending=False, inplace=True)
 
-    # 5) Preselezione Riservata (da CategoriaRiserva)
+    # Preselezione Riservata (da CategoriaRiserva)
     categoria_col = _pick_categoria_riserva_column(df)
-    if DEBUG:
-        print("DEBUG | Colonna scelta per riserva:", categoria_col)
-
     if categoria_col:
         df["Preselezione Riservata"] = df[categoria_col].apply(_map_riserva)
-        if DEBUG:
-            # esempi (prime 10 righe)
-            cols_to_show = [categoria_col, "Preselezione Riservata"] if categoria_col in df.columns else ["Preselezione Riservata"]
-            print("DEBUG | Esempi riserva (prime 10):", df[cols_to_show].head(10).to_dict(orient="records"))
-    else:
-        if DEBUG:
-            print("DEBUG | ATTENZIONE: nessuna colonna CategoriaRiserva trovata (o equivalente)")
 
-    # 6) Selezione campi di output
+    # Output
     campi_finali = [
         "CPI",
         "ID_Richiesta",
@@ -244,7 +206,7 @@ def convert_excel_to_json(excel_bytes: BytesIO):
 
     df = df[[c for c in campi_finali if c in df.columns]]
 
-    # 7) Serializzazione pulita (NaN -> None)
+    # Serializzazione pulita (NaN -> None)
     data = df.to_dict(orient="records")
     cleaned_data = [
         {
@@ -253,12 +215,6 @@ def convert_excel_to_json(excel_bytes: BytesIO):
         }
         for row in data
     ]
-
-    if DEBUG:
-        if cleaned_data:
-            print("DEBUG | Campi del primo record JSON:", list(cleaned_data[0].keys()))
-        else:
-            print("DEBUG | NESSUNA OFFERTA in output")
 
     return cleaned_data
 
@@ -277,9 +233,9 @@ def save_json(data, output_path):
     json_finale = {
         "meta": {
             "progetto": "SOFIA - Prototipo di assistente virtuale per i Centri per l’Impiego",
-            "versione": "debug",
+            "versione": "clean",
             "ultimo_aggiornamento": pd.Timestamp.now().strftime("%Y-%m-%d"),
-            "avviso": "⚠️ Questo file JSON è generato a scopo di test/debug. I dati non sono ufficiali e possono contenere errori o essere incompleti. Usare solo per prototipazione tecnica interna.",
+            "avviso": "⚠️ Questo file JSON è generato a scopo di test. I dati non sono ufficiali e possono contenere errori o essere incompleti. Usare solo per prototipazione tecnica interna.",
         },
         "offerte": data,
     }
