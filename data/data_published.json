@@ -1,9 +1,9 @@
 {
   "meta": {
     "progetto": "SOFIA - Prototipo di assistente virtuale per i Centri per l’Impiego",
-    "versione": "debug",
+    "versione": "clean",
     "ultimo_aggiornamento": "2026-02-24",
-    "avviso": "⚠️ Questo file JSON è generato a scopo di test/debug. I dati non sono ufficiali e possono contenere errori o essere incompleti. Usare solo per prototipazione tecnica interna."
+    "avviso": "⚠️ Questo file JSON è generato a scopo di test. I dati non sono ufficiali e possono contenere errori o essere incompleti. Usare solo per prototipazione tecnica interna."
   },
   "offerte": [
     {
@@ -113,7 +113,7 @@
       "Mansioni": "ASSISTENTE UFFICIO RISORSE UMANE",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-23",
       "DataScadenzaISO": "2026-03-06",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12095"
@@ -161,7 +161,7 @@
       "Mansioni": "programmatori e analisti software con competenze sistemistiche e di supporto agli applicativi software",
       "ComuneSedeLavoro": "Latina",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-23",
       "DataScadenzaISO": "2026-03-10",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12284"
@@ -241,7 +241,7 @@
       "Mansioni": "COMMIS DI SALA",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-21",
       "DataScadenzaISO": "2026-03-06",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12266"
@@ -257,7 +257,7 @@
       "Mansioni": "AIUTO CUOCO",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-21",
       "DataScadenzaISO": "2026-03-06",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12268"
@@ -273,7 +273,7 @@
       "Mansioni": "commis di sala",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-21",
       "DataScadenzaISO": "2026-03-06",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12267"
@@ -433,7 +433,7 @@
       "Mansioni": "miscelazione delle materie prime e preparazione del bulk sia di prodotti liquidi che solidi e utilizzo delle relative attrezzature; preparazione di semilavorati, ovuli e altre forme farmaceutiche tramite macchinari specifici.",
       "ComuneSedeLavoro": "Sgurgola",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-20",
       "DataScadenzaISO": "2026-03-19",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12265"
@@ -561,7 +561,7 @@
       "Mansioni": null,
       "ComuneSedeLavoro": "Guidonia Montecelio",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-19",
       "DataScadenzaISO": "2026-02-27",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12249"
@@ -657,7 +657,7 @@
       "Mansioni": "Gestione del ciclo attivo e passivo dei fondi\npensione; Inserimento e gestione delle adesioni; Attività di consulenza tramite e-mail verso iscritti e intermediari\n",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-19",
       "DataScadenzaISO": "2026-02-23",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12086"
@@ -929,7 +929,7 @@
       "Mansioni": "operaio non qualificato di cantiere mobile temporaneo, addetto a lavori generici e di fatica con patente c+cqc+carta tachigrafa",
       "ComuneSedeLavoro": "Velletri",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-17",
       "DataScadenzaISO": "2026-03-03",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12211"
@@ -977,7 +977,7 @@
       "Mansioni": "RICEZIONE, STOCCAGGIO DELLA MERCE, PRELEVAMENTO E CONFEZIONAMENTO DEGLI ORDINI RICEVUTI",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-16",
       "DataScadenzaISO": "2026-03-02",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12198"
@@ -1073,7 +1073,7 @@
       "Mansioni": null,
       "ComuneSedeLavoro": "Frosinone",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-16",
       "DataScadenzaISO": "2026-03-15",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12203"
@@ -1089,7 +1089,7 @@
       "Mansioni": null,
       "ComuneSedeLavoro": "Frosinone",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-16",
       "DataScadenzaISO": "2026-03-15",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12202"
@@ -1233,7 +1233,7 @@
       "Mansioni": "SVILUPPO APPLICAZIONI (AMBIENTI SOFTWARE , JAVA,  e/o  MS. net)",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-12",
       "DataScadenzaISO": "2026-02-26",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11962"
@@ -1329,7 +1329,7 @@
       "Mansioni": "addetto al prelievo delle acque presso siti, impianti, punti di prelievo; applicazione dei protocolli operativi; trasporto dei campioni in laboratorio; compilazione della documentazione ",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-12",
       "DataScadenzaISO": "2026-03-05",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12160"
@@ -1441,7 +1441,7 @@
       "Mansioni": null,
       "ComuneSedeLavoro": "Frosinone",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-11",
       "DataScadenzaISO": "2026-02-28",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12136"
@@ -1457,7 +1457,7 @@
       "Mansioni": null,
       "ComuneSedeLavoro": "Frosinone",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-11",
       "DataScadenzaISO": "2026-02-28",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12135"
@@ -1505,7 +1505,7 @@
       "Mansioni": "ADDETTO/A ALLA SISTEMAZIONE DEGLI SCAFFALI, RIORDINO E PULIZIA MAGAZZINO O ADDETTO/A ALLE CASSE",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-11",
       "DataScadenzaISO": "2026-02-25",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12134"
@@ -1729,7 +1729,7 @@
       "Mansioni": null,
       "ComuneSedeLavoro": "Cassino",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-09",
       "DataScadenzaISO": "2026-02-28",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12099"
@@ -1745,7 +1745,7 @@
       "Mansioni": null,
       "ComuneSedeLavoro": "Cassino",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-09",
       "DataScadenzaISO": "2026-02-28",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12100"
@@ -1761,7 +1761,7 @@
       "Mansioni": null,
       "ComuneSedeLavoro": "Pomezia",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-09",
       "DataScadenzaISO": "2026-02-24",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12082"
@@ -1873,7 +1873,7 @@
       "Mansioni": "Predisposizione delle procedure per la gestione delle assunzioni e le cessazione di rapporti di lavoro; rilevazione delle presenze e predisposizione della documentazione giustificativa delle assenze; predisposizione delle pratiche contabili del personale (missioni, straordinari, buoni pasto, ecc.)",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-09",
       "DataScadenzaISO": "2026-03-02",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12094"
@@ -1985,7 +1985,7 @@
       "Mansioni": "gestione centralino, comunicazioni telefoniche e via email, attività di segreteria generale e supporto amministrativo, supporto organizzativo agli uffici",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-06",
       "DataScadenzaISO": "2026-02-24",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12068"
@@ -2081,7 +2081,7 @@
       "Mansioni": "assistenza preventiva, curativa, palliativa e riabilitativa ",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-03",
       "DataScadenzaISO": "2026-03-03",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11996"
@@ -2113,7 +2113,7 @@
       "Mansioni": "MONDATURA E CONFEZIONAMENTO FUNGHI",
       "ComuneSedeLavoro": "San Cesareo",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-03",
       "DataScadenzaISO": "2026-03-02",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12011"
@@ -2145,7 +2145,7 @@
       "Mansioni": "attività indirizzata a soddisfare i bisogni primari del paziente nell'ambito delle proprie aree di competenza in contesto sia sociale che sanitario",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO INDETERMINATO",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-03",
       "DataScadenzaISO": "2026-03-03",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/12013"
@@ -2177,7 +2177,7 @@
       "Mansioni": null,
       "ComuneSedeLavoro": "Frosinone",
       "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-02-02",
       "DataScadenzaISO": "2026-02-28",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11989"
@@ -2209,7 +2209,7 @@
       "Mansioni": "carico e scarico merci, pulizie industriali e tecniche.",
       "ComuneSedeLavoro": "Pignataro Interamna",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99; Categorie protette art 18 Legge 68/99",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-01-30",
       "DataScadenzaISO": "2026-02-28",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/11966"
