@@ -2,7 +2,7 @@
   "meta": {
     "progetto": "SOFIA - Prototipo di assistente virtuale per i Centri per l’Impiego",
     "versione": "clean",
-    "ultimo_aggiornamento": "2026-05-10",
+    "ultimo_aggiornamento": "2026-05-11",
     "avviso": "⚠️ Questo file JSON è generato a scopo di test. I dati non sono ufficiali e possono contenere errori o essere incompleti. Usare solo per prototipazione tecnica interna."
   },
   "offerte": [
@@ -53,6 +53,22 @@
       "DataInserimentoISO": "2026-05-08",
       "DataScadenzaISO": "2026-06-07",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/13129"
+    },
+    {
+      "CPI": "SILD_ROMA",
+      "ID_Richiesta": "P559CSI",
+      "DataInserimento": "08/05/2026",
+      "DataScadenza": "22/05/2026",
+      "Azienda": "GVG S.P.A.",
+      "NumeroLavoratoriRichiesti": 1.0,
+      "Qualifica": "Addetti alla gestione degli acquisti di beni e servizi - Addetto ufficio Acquisti",
+      "Mansioni": "Gestione del processo di approvvigionamento di materiali, forniture e servizi; raccolta e confronto preventivi; emissione ordini di acquisto; verifica consegne e documentazione; monitoraggio scadenze e rapporti con i fornitori; aggiornamento anagrafica articolie condizioni economiche; collaborazione con ufficio tecnico, amministrativo e di cantiere per garantire la continuità operativa e l'ottimizzazione dei costi.",
+      "ComuneSedeLavoro": "Roma",
+      "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
+      "Preselezione Riservata": "Disabili art 1 Legge 68/99",
+      "DataInserimentoISO": "2026-05-08",
+      "DataScadenzaISO": "2026-05-22",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/13131"
     },
     {
       "CPI": "CPI LATINA",
@@ -949,22 +965,6 @@
       "DataInserimentoISO": "2026-04-27",
       "DataScadenzaISO": "2026-05-13",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/13018"
-    },
-    {
-      "CPI": "CPI ANZIO",
-      "ID_Richiesta": "P480S02",
-      "DataInserimento": "27/04/2026",
-      "DataScadenza": "15/05/2026",
-      "Azienda": "Azienda riservata",
-      "NumeroLavoratoriRichiesti": 3.0,
-      "Qualifica": "Autisti",
-      "Mansioni": "AUTISTI PATENTE C-CQC",
-      "ComuneSedeLavoro": "Nettuno",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO",
-      "Preselezione Riservata": null,
-      "DataInserimentoISO": "2026-04-27",
-      "DataScadenzaISO": "2026-05-15",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/13014"
     }
   ]
 }
