@@ -2,7 +2,7 @@
   "meta": {
     "progetto": "SOFIA - Prototipo di assistente virtuale per i Centri per l’Impiego",
     "versione": "clean",
-    "ultimo_aggiornamento": "2026-08-04",
+    "ultimo_aggiornamento": "2026-08-05",
     "avviso": "⚠️ Questo file JSON è generato a scopo di test. I dati non sono ufficiali e possono contenere errori o essere incompleti. Usare solo per prototipazione tecnica interna."
   },
   "offerte": [
@@ -743,22 +743,6 @@
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/13889"
     },
     {
-      "CPI": "SILD_ROMA",
-      "ID_Richiesta": "P581CSI",
-      "DataInserimento": "22/07/2026",
-      "DataScadenza": "07/08/2026",
-      "Azienda": "TECHBAU SPA",
-      "NumeroLavoratoriRichiesti": 2,
-      "Qualifica": "Addetti alla contabilità",
-      "Mansioni": "ADDETTI ALLA CONTABILITA'",
-      "ComuneSedeLavoro": "Roma",
-      "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99",
-      "DataInserimentoISO": "2026-07-22",
-      "DataScadenzaISO": "2026-08-07",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/13894"
-    },
-    {
       "CPI": "SILD_FROSINONE",
       "ID_Richiesta": "P160SSF",
       "DataInserimento": "22/07/2026",
@@ -773,6 +757,22 @@
       "DataInserimentoISO": "2026-07-22",
       "DataScadenzaISO": "2026-08-21",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/13898"
+    },
+    {
+      "CPI": "SILD_ROMA",
+      "ID_Richiesta": "P581CSI",
+      "DataInserimento": "22/07/2026",
+      "DataScadenza": "07/08/2026",
+      "Azienda": "TECHBAU SPA",
+      "NumeroLavoratoriRichiesti": 2,
+      "Qualifica": "Addetti alla contabilità",
+      "Mansioni": "ADDETTI ALLA CONTABILITA'",
+      "ComuneSedeLavoro": "Roma",
+      "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
+      "Preselezione Riservata": "Disabili art 1 Legge 68/99",
+      "DataInserimentoISO": "2026-07-22",
+      "DataScadenzaISO": "2026-08-07",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/13894"
     },
     {
       "CPI": "SILD_ROMA",
@@ -840,22 +840,6 @@
     },
     {
       "CPI": "SILD_ROMA",
-      "ID_Richiesta": "P578CSI",
-      "DataInserimento": "20/07/2026",
-      "DataScadenza": "03/08/2026",
-      "Azienda": "CAMPOMARZIO 2003",
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Segretari amministrativi e tecnici degli affari generali",
-      "Mansioni": "ADDETTO ALLA SEGRETERIA, ALLA RECEPTION E AGLI AFFARI GENERALI",
-      "ComuneSedeLavoro": "Roma",
-      "TipoContratto": "APPRENDISTATO PROFESSIONALIZZANTE O CONTRATTO DI MESTIERE",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99",
-      "DataInserimentoISO": "2026-07-20",
-      "DataScadenzaISO": "2026-08-03",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/13865"
-    },
-    {
-      "CPI": "SILD_ROMA",
       "ID_Richiesta": "P579CSI",
       "DataInserimento": "20/07/2026",
       "DataScadenza": "19/08/2026",
@@ -887,20 +871,20 @@
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/13869"
     },
     {
-      "CPI": "CPI ROMA TORRE_ANGELA",
-      "ID_Richiesta": "P834C11",
+      "CPI": "SILD_VITERBO",
+      "ID_Richiesta": "P93NSV",
       "DataInserimento": "17/07/2026",
-      "DataScadenza": "10/08/2026",
-      "Azienda": "T&R SECURITY SERVICE Srl",
-      "NumeroLavoratoriRichiesti": 4,
-      "Qualifica": "Guardie private di sicurezza - addetto ai servizi di sicurezza/GPG",
-      "Mansioni": "servizi di sicurezza di persone, beni e strutture",
-      "ComuneSedeLavoro": "Roma",
-      "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
+      "DataScadenza": "14/08/2026",
+      "Azienda": "Azienda riservata",
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "Amministratori di sistemi",
+      "Mansioni": "amministrazione, configurazione, manutenzione e monitoraggio dei sistemi informatici aziendali. In particolare è richiesto lo svolgimento e la gestione di server WINDOWS e LINUX, l'amministrazione di ambienti virtualizzati, la configurazione e gestione delle reti aziendali  e dei servizi di rete.",
+      "ComuneSedeLavoro": "Viterbo",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
       "Preselezione Riservata": "Disabili art 1 Legge 68/99",
       "DataInserimentoISO": "2026-07-17",
-      "DataScadenzaISO": "2026-08-10",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/13857"
+      "DataScadenzaISO": "2026-08-14",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/13864"
     },
     {
       "CPI": "CPI ROMA TORRE_ANGELA",
@@ -919,20 +903,20 @@
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/13858"
     },
     {
-      "CPI": "SILD_VITERBO",
-      "ID_Richiesta": "P93NSV",
+      "CPI": "CPI ROMA TORRE_ANGELA",
+      "ID_Richiesta": "P834C11",
       "DataInserimento": "17/07/2026",
-      "DataScadenza": "14/08/2026",
-      "Azienda": "Azienda riservata",
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Amministratori di sistemi",
-      "Mansioni": "amministrazione, configurazione, manutenzione e monitoraggio dei sistemi informatici aziendali. In particolare è richiesto lo svolgimento e la gestione di server WINDOWS e LINUX, l'amministrazione di ambienti virtualizzati, la configurazione e gestione delle reti aziendali  e dei servizi di rete.",
-      "ComuneSedeLavoro": "Viterbo",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "DataScadenza": "10/08/2026",
+      "Azienda": "T&R SECURITY SERVICE Srl",
+      "NumeroLavoratoriRichiesti": 4,
+      "Qualifica": "Guardie private di sicurezza - addetto ai servizi di sicurezza/GPG",
+      "Mansioni": "servizi di sicurezza di persone, beni e strutture",
+      "ComuneSedeLavoro": "Roma",
+      "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
       "Preselezione Riservata": "Disabili art 1 Legge 68/99",
       "DataInserimentoISO": "2026-07-17",
-      "DataScadenzaISO": "2026-08-14",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/13864"
+      "DataScadenzaISO": "2026-08-10",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/13857"
     },
     {
       "CPI": "CPI COLLEFERRO",
@@ -949,6 +933,22 @@
       "DataInserimentoISO": "2026-07-16",
       "DataScadenzaISO": "2026-08-06",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/13841"
+    },
+    {
+      "CPI": "CPI COLLEFERRO",
+      "ID_Richiesta": "P229S05",
+      "DataInserimento": "16/07/2026",
+      "DataScadenza": "06/08/2026",
+      "Azienda": "RISTO IN SRLS",
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "Cuochi in alberghi e ristoranti",
+      "Mansioni": "PROGETTAZIONE MENU, PREPARAZIONE E COTTURA, CONTROLLO QUALITA', APPLICAZIONE PROTOCOLLI HACCP",
+      "ComuneSedeLavoro": "SEGNI",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
+      "DataInserimentoISO": "2026-07-16",
+      "DataScadenzaISO": "2026-08-06",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/13839"
     },
     {
       "CPI": "CPI COLLEFERRO",
