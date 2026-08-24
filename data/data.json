@@ -2,7 +2,7 @@
   "meta": {
     "progetto": "SOFIA - Prototipo di assistente virtuale per i Centri per l’Impiego",
     "versione": "clean",
-    "ultimo_aggiornamento": "2026-08-23",
+    "ultimo_aggiornamento": "2026-08-24",
     "avviso": "⚠️ Questo file JSON è generato a scopo di test. I dati non sono ufficiali e possono contenere errori o essere incompleti. Usare solo per prototipazione tecnica interna."
   },
   "offerte": [
@@ -20,7 +20,7 @@
       "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-08-21",
       "DataScadenzaISO": "2026-09-14",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14217"
     },
     {
       "CPI": "CPI SORA",
@@ -36,7 +36,7 @@
       "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-08-21",
       "DataScadenzaISO": "2026-09-05",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14218"
     },
     {
       "CPI": "CPI ROMA CINECITTA'",
@@ -52,7 +52,7 @@
       "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-08-20",
       "DataScadenzaISO": "2026-09-04",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14216"
     },
     {
       "CPI": "SILD_ROMA",
