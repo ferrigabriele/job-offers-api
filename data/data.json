@@ -2,10 +2,90 @@
   "meta": {
     "progetto": "SOFIA - Prototipo di assistente virtuale per i Centri per l’Impiego",
     "versione": "clean",
-    "ultimo_aggiornamento": "2026-08-26",
+    "ultimo_aggiornamento": "2026-08-27",
     "avviso": "⚠️ Questo file JSON è generato a scopo di test. I dati non sono ufficiali e possono contenere errori o essere incompleti. Usare solo per prototipazione tecnica interna."
   },
   "offerte": [
+    {
+      "CPI": "CPI SORA",
+      "ID_Richiesta": "P218S13",
+      "DataInserimento": "26/08/2026",
+      "DataScadenza": "12/09/2026",
+      "Azienda": "KAPPA STORE SRL",
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "Commessi delle vendite al minuto - BANCONISTA REPARTO GASTRONOMIA",
+      "Mansioni": "ALLESTIMENTO E GESTIONE DEL BANCO GASTRONOMIA, SERVIZIO E VENDITA DEI PRODOTTI, PREPARAZIONE E CONFEZIONAMENTO DEGLI ALIMENTI, UTILIZZO DELLE ATTREZZATURE DEL REPARTO, RIORDINO E PULIZA DEL BANCO E DEGLI SPAZI DI LAVORO NEL RISPETTO DELLE NORME IGENICO- SANITARIE",
+      "ComuneSedeLavoro": "Isola del Liri",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
+      "DataInserimentoISO": "2026-08-26",
+      "DataScadenzaISO": "2026-09-12",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14234"
+    },
+    {
+      "CPI": "CPI ROMA CINECITTA'",
+      "ID_Richiesta": "P1186C06",
+      "DataInserimento": "26/08/2026",
+      "DataScadenza": "04/09/2026",
+      "Azienda": "Azienda riservata",
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "aiuto cuoco di ristorante",
+      "Mansioni": "SUPPOTO CUCINA, COTTURA ALLA BRACE, PULIZIA CUCINA .",
+      "ComuneSedeLavoro": "Roma",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
+      "DataInserimentoISO": "2026-08-26",
+      "DataScadenzaISO": "2026-09-04",
+      "LinkPubblicazioneOfferta": null
+    },
+    {
+      "CPI": "CPI ROMA CINECITTA'",
+      "ID_Richiesta": "P1185C06",
+      "DataInserimento": "26/08/2026",
+      "DataScadenza": "04/09/2026",
+      "Azienda": "Azienda riservata",
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "Camerieri di ristorante",
+      "Mansioni": "PREPARAZIONE SALA, SERVIZIO SALA, ACCOGLIENZA, PULIZIA FINALE .",
+      "ComuneSedeLavoro": "Roma",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
+      "DataInserimentoISO": "2026-08-26",
+      "DataScadenzaISO": "2026-09-04",
+      "LinkPubblicazioneOfferta": null
+    },
+    {
+      "CPI": "SILD_VITERBO",
+      "ID_Richiesta": "P97NSV",
+      "DataInserimento": "26/08/2026",
+      "DataScadenza": "25/09/2026",
+      "Azienda": "Azienda riservata",
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "Commessi delle vendite al minuto",
+      "Mansioni": "MANSIONE DI AIUTO COMMESSO PER RIFORNIMENTO SCAFFALI, BARRIERA CASSE, SISTEMAZIONE CARRELLI",
+      "ComuneSedeLavoro": "Orte",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": "Disabili art 1 Legge 68/99",
+      "DataInserimentoISO": "2026-08-26",
+      "DataScadenzaISO": "2026-09-25",
+      "LinkPubblicazioneOfferta": null
+    },
+    {
+      "CPI": "CPI PASSO CORESE",
+      "ID_Richiesta": "P115N15",
+      "DataInserimento": "26/08/2026",
+      "DataScadenza": "08/09/2026",
+      "Azienda": "Cesaretti Salvi Stefania",
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "Addetti all'assistenza personale",
+      "Mansioni": "LA PERSONA DOVRA'OCCUPARSI DELLA CUCINA E DELLA SOMMINISTRAZIONE DEI PASTI E DELLE MEDICINE, CON ANNESSA PULIZIA DELLA CASA E DELLA PERSONA DA ASSISTERE.",
+      "ComuneSedeLavoro": "Fara in Sabina",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": "NO",
+      "DataInserimentoISO": "2026-08-26",
+      "DataScadenzaISO": "2026-09-08",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14235"
+    },
     {
       "CPI": "CPI FROSINONE",
       "ID_Richiesta": "P954S08",
@@ -20,7 +100,7 @@
       "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-08-25",
       "DataScadenzaISO": "2026-09-08",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14230"
     },
     {
       "CPI": "SILD_VITERBO",
@@ -52,7 +132,7 @@
       "Preselezione Riservata": "Disabili art 1 Legge 68/99",
       "DataInserimentoISO": "2026-08-25",
       "DataScadenzaISO": "2026-09-24",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14231"
     },
     {
       "CPI": "SILD_RIETI",
@@ -68,7 +148,7 @@
       "Preselezione Riservata": "Disabili art 1 Legge 68/99",
       "DataInserimentoISO": "2026-08-25",
       "DataScadenzaISO": "2026-09-24",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14232"
     },
     {
       "CPI": "SILD_RIETI",
@@ -84,7 +164,7 @@
       "Preselezione Riservata": "Disabili art 1 Legge 68/99",
       "DataInserimentoISO": "2026-08-25",
       "DataScadenzaISO": "2026-09-24",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14233"
     },
     {
       "CPI": "CPI PALESTRINA",
@@ -100,7 +180,7 @@
       "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-08-25",
       "DataScadenzaISO": "2026-09-07",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14229"
     },
     {
       "CPI": "CPI VELLETRI",
@@ -167,54 +247,6 @@
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14216"
     },
     {
-      "CPI": "SILD_ROMA",
-      "ID_Richiesta": "P586CSI",
-      "DataInserimento": "19/08/2026",
-      "DataScadenza": "31/08/2026",
-      "Azienda": "COOPERATIVA ZOE SOCIETA' COOPERATIVA SOCIALE",
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Facchini, addetti allo spostamento merci ed assimilati",
-      "Mansioni": "facchino addetto alla movimentazione di merci, arredi e beni all'interno di edifici\nCapacità lavorative richieste: capacità di muoversi in autonomia; capacità di lavorare in un gruppo di lavoro",
-      "ComuneSedeLavoro": "Roma",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99",
-      "DataInserimentoISO": "2026-08-19",
-      "DataScadenzaISO": "2026-08-31",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14197"
-    },
-    {
-      "CPI": "CPI ANZIO",
-      "ID_Richiesta": "P516S02",
-      "DataInserimento": "19/08/2026",
-      "DataScadenza": "25/08/2026",
-      "Azienda": "Azienda riservata",
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "necroforo",
-      "Mansioni": "La figura ricercata si occuperà di servizio di necroforato, operazioni cimiteriali ricoprendo il ruolo di caposquadra",
-      "ComuneSedeLavoro": "Nettuno",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": null,
-      "DataInserimentoISO": "2026-08-19",
-      "DataScadenzaISO": "2026-08-25",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14188"
-    },
-    {
-      "CPI": "CPI ANZIO",
-      "ID_Richiesta": "P515S02",
-      "DataInserimento": "19/08/2026",
-      "DataScadenza": "25/08/2026",
-      "Azienda": "Azienda riservata",
-      "NumeroLavoratoriRichiesti": 4,
-      "Qualifica": "Manovali e personale non qualificato dell’edilizia civile e professioni assimilate - OPERATORE CIMITERIALE",
-      "Mansioni": "Per il cimitero comunale di Nettuno si ricercano operatori addetti ad attività di manutenzione del verde con conduzione delle relative macchine operatrici, attività di pulizia generica e svolgimento operazioni cimiteriali di base",
-      "ComuneSedeLavoro": "Nettuno",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": null,
-      "DataInserimentoISO": "2026-08-19",
-      "DataScadenzaISO": "2026-08-25",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14187"
-    },
-    {
       "CPI": "CPI ROMA OSTIA",
       "ID_Richiesta": "P1413C07",
       "DataInserimento": "19/08/2026",
@@ -229,6 +261,22 @@
       "DataInserimentoISO": "2026-08-19",
       "DataScadenzaISO": "2026-09-03",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14193"
+    },
+    {
+      "CPI": "SILD_ROMA",
+      "ID_Richiesta": "P586CSI",
+      "DataInserimento": "19/08/2026",
+      "DataScadenza": "31/08/2026",
+      "Azienda": "COOPERATIVA ZOE SOCIETA' COOPERATIVA SOCIALE",
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "Facchini, addetti allo spostamento merci ed assimilati",
+      "Mansioni": "facchino addetto alla movimentazione di merci, arredi e beni all'interno di edifici\nCapacità lavorative richieste: capacità di muoversi in autonomia; capacità di lavorare in un gruppo di lavoro",
+      "ComuneSedeLavoro": "Roma",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": "Disabili art 1 Legge 68/99",
+      "DataInserimentoISO": "2026-08-19",
+      "DataScadenzaISO": "2026-08-31",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14197"
     },
     {
       "CPI": "CPI FORMIA",
@@ -263,36 +311,20 @@
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14184"
     },
     {
-      "CPI": "CPI FROSINONE",
-      "ID_Richiesta": "P953S08",
+      "CPI": "CPI COLLEFERRO",
+      "ID_Richiesta": "P238S05",
       "DataInserimento": "13/08/2026",
-      "DataScadenza": "27/08/2026",
-      "Azienda": "Azienda riservata",
-      "NumeroLavoratoriRichiesti": 2,
-      "Qualifica": "Addetti all'assistenza personale",
-      "Mansioni": "assistenza domiciliare da intendersi come compagnia e sostegno a paziente con sindrome di down, in struttura residenziale",
-      "ComuneSedeLavoro": "Veroli",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": null,
-      "DataInserimentoISO": "2026-08-13",
-      "DataScadenzaISO": "2026-08-27",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14190"
-    },
-    {
-      "CPI": "CPI ROMA CINECITTA'",
-      "ID_Richiesta": "P1183C06",
-      "DataInserimento": "13/08/2026",
-      "DataScadenza": "27/08/2026",
-      "Azienda": "SPEDIREROMA SRL",
-      "NumeroLavoratoriRichiesti": 20,
-      "Qualifica": "corriere espresso",
-      "Mansioni": "autista consegnatario/trasporto di merci su gomma",
+      "DataScadenza": "03/09/2026",
+      "Azienda": "SF1 SRLS",
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "Commessi delle vendite al minuto",
+      "Mansioni": "ADDETTO ALLE VENDITE",
       "ComuneSedeLavoro": "Roma",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
       "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-08-13",
-      "DataScadenzaISO": "2026-08-27",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14191"
+      "DataScadenzaISO": "2026-09-03",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14161"
     },
     {
       "CPI": "CPI POGGIO MIRTETO",
@@ -311,20 +343,36 @@
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14189"
     },
     {
-      "CPI": "CPI COLLEFERRO",
-      "ID_Richiesta": "P238S05",
+      "CPI": "CPI ROMA CINECITTA'",
+      "ID_Richiesta": "P1183C06",
       "DataInserimento": "13/08/2026",
-      "DataScadenza": "03/09/2026",
-      "Azienda": "SF1 SRLS",
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Commessi delle vendite al minuto",
-      "Mansioni": "ADDETTO ALLE VENDITE",
+      "DataScadenza": "27/08/2026",
+      "Azienda": "SPEDIREROMA SRL",
+      "NumeroLavoratoriRichiesti": 20,
+      "Qualifica": "corriere espresso",
+      "Mansioni": "autista consegnatario/trasporto di merci su gomma",
       "ComuneSedeLavoro": "Roma",
-      "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
       "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-08-13",
-      "DataScadenzaISO": "2026-09-03",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14161"
+      "DataScadenzaISO": "2026-08-27",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14191"
+    },
+    {
+      "CPI": "CPI FROSINONE",
+      "ID_Richiesta": "P953S08",
+      "DataInserimento": "13/08/2026",
+      "DataScadenza": "27/08/2026",
+      "Azienda": "Azienda riservata",
+      "NumeroLavoratoriRichiesti": 2,
+      "Qualifica": "Addetti all'assistenza personale",
+      "Mansioni": "assistenza domiciliare da intendersi come compagnia e sostegno a paziente con sindrome di down, in struttura residenziale",
+      "ComuneSedeLavoro": "Veroli",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
+      "DataInserimentoISO": "2026-08-13",
+      "DataScadenzaISO": "2026-08-27",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14190"
     },
     {
       "CPI": "SILD_FROSINONE",
@@ -344,22 +392,6 @@
     },
     {
       "CPI": "CPI TARQUINIA",
-      "ID_Richiesta": "P227N09",
-      "DataInserimento": "11/08/2026",
-      "DataScadenza": "02/09/2026",
-      "Azienda": "ST Costruzioni srl",
-      "NumeroLavoratoriRichiesti": 2,
-      "Qualifica": "Manovali e personale non qualificato dell’edilizia civile e professioni assimilate",
-      "Mansioni": "realizzazione eristrutturazione di opere murarie, utilizzo attrezzature da cantiere, movimentazione materiali e rispetto norme di sicurezza.",
-      "ComuneSedeLavoro": "Tarquinia",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": null,
-      "DataInserimentoISO": "2026-08-11",
-      "DataScadenzaISO": "2026-09-02",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14154"
-    },
-    {
-      "CPI": "CPI TARQUINIA",
       "ID_Richiesta": "P226N09",
       "DataInserimento": "11/08/2026",
       "DataScadenza": "02/09/2026",
@@ -373,6 +405,22 @@
       "DataInserimentoISO": "2026-08-11",
       "DataScadenzaISO": "2026-09-02",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14153"
+    },
+    {
+      "CPI": "CPI TARQUINIA",
+      "ID_Richiesta": "P227N09",
+      "DataInserimento": "11/08/2026",
+      "DataScadenza": "02/09/2026",
+      "Azienda": "ST Costruzioni srl",
+      "NumeroLavoratoriRichiesti": 2,
+      "Qualifica": "Manovali e personale non qualificato dell’edilizia civile e professioni assimilate",
+      "Mansioni": "realizzazione eristrutturazione di opere murarie, utilizzo attrezzature da cantiere, movimentazione materiali e rispetto norme di sicurezza.",
+      "ComuneSedeLavoro": "Tarquinia",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
+      "DataInserimentoISO": "2026-08-11",
+      "DataScadenzaISO": "2026-09-02",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14154"
     },
     {
       "CPI": "CPI FRASCATI",
@@ -391,22 +439,6 @@
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14142"
     },
     {
-      "CPI": "CPI ROMA TORRE_ANGELA",
-      "ID_Richiesta": "P838C11",
-      "DataInserimento": "10/08/2026",
-      "DataScadenza": "03/09/2026",
-      "Azienda": "Azienda riservata",
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Professioni sanitarie infermieristiche",
-      "Mansioni": "assistenza preventiva, curativa, palliativa e riabilitativa ",
-      "ComuneSedeLavoro": "Roma",
-      "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
-      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
-      "DataInserimentoISO": "2026-08-10",
-      "DataScadenzaISO": "2026-09-03",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14128"
-    },
-    {
       "CPI": "CPI ROMA TESTACCIO",
       "ID_Richiesta": "P854C09",
       "DataInserimento": "10/08/2026",
@@ -421,6 +453,22 @@
       "DataInserimentoISO": "2026-08-10",
       "DataScadenzaISO": "2026-09-07",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14109"
+    },
+    {
+      "CPI": "CPI ROMA TORRE_ANGELA",
+      "ID_Richiesta": "P838C11",
+      "DataInserimento": "10/08/2026",
+      "DataScadenza": "03/09/2026",
+      "Azienda": "Azienda riservata",
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "Professioni sanitarie infermieristiche",
+      "Mansioni": "assistenza preventiva, curativa, palliativa e riabilitativa ",
+      "ComuneSedeLavoro": "Roma",
+      "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
+      "DataInserimentoISO": "2026-08-10",
+      "DataScadenzaISO": "2026-09-03",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14128"
     },
     {
       "CPI": "CPI ROMA TORRE_ANGELA",
@@ -472,6 +520,22 @@
     },
     {
       "CPI": "CPI ROMA TIBURTINO",
+      "ID_Richiesta": "P1045C10",
+      "DataInserimento": "05/08/2026",
+      "DataScadenza": "30/08/2026",
+      "Azienda": "Azienda riservata",
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "Tecnici aerospaziali - FLYNG DOCTOR/ DELEGATO TECNICO ",
+      "Mansioni": "DIAGNOSTICA AUTOMOTIVE SUL CAMPO",
+      "ComuneSedeLavoro": "Roma",
+      "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
+      "Preselezione Riservata": "Disabili art 1 Legge 68/99",
+      "DataInserimentoISO": "2026-08-05",
+      "DataScadenzaISO": "2026-08-30",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14103"
+    },
+    {
+      "CPI": "CPI ROMA TIBURTINO",
       "ID_Richiesta": "P1042C10",
       "DataInserimento": "05/08/2026",
       "DataScadenza": "30/08/2026",
@@ -488,35 +552,19 @@
     },
     {
       "CPI": "CPI ROMA TIBURTINO",
-      "ID_Richiesta": "P1047C10",
+      "ID_Richiesta": "P1043C10",
       "DataInserimento": "05/08/2026",
       "DataScadenza": "30/08/2026",
       "Azienda": "Azienda riservata",
       "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "programmatore informatico - PROGRAMM MANAGER",
+      "Qualifica": "Personale addetto a compiti di controllo, verifica e professioni assimilate - QUALITY ASSURANCE ENGINEER ",
       "Mansioni": null,
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
       "Preselezione Riservata": "Disabili art 1 Legge 68/99",
       "DataInserimentoISO": "2026-08-05",
       "DataScadenzaISO": "2026-08-30",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14105"
-    },
-    {
-      "CPI": "CPI ROMA TIBURTINO",
-      "ID_Richiesta": "P1045C10",
-      "DataInserimento": "05/08/2026",
-      "DataScadenza": "30/08/2026",
-      "Azienda": "Azienda riservata",
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Tecnici aerospaziali - FLYNG DOCTOR/ DELEGATO TECNICO ",
-      "Mansioni": "DIAGNOSTICA AUTOMOTIVE SUL CAMPO",
-      "ComuneSedeLavoro": "Roma",
-      "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99",
-      "DataInserimentoISO": "2026-08-05",
-      "DataScadenzaISO": "2026-08-30",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14103"
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14101"
     },
     {
       "CPI": "CPI ROMA TIBURTINO",
@@ -536,19 +584,19 @@
     },
     {
       "CPI": "CPI ROMA TIBURTINO",
-      "ID_Richiesta": "P1043C10",
+      "ID_Richiesta": "P1047C10",
       "DataInserimento": "05/08/2026",
       "DataScadenza": "30/08/2026",
       "Azienda": "Azienda riservata",
       "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Personale addetto a compiti di controllo, verifica e professioni assimilate - QUALITY ASSURANCE ENGINEER ",
+      "Qualifica": "programmatore informatico - PROGRAMM MANAGER",
       "Mansioni": null,
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
       "Preselezione Riservata": "Disabili art 1 Legge 68/99",
       "DataInserimentoISO": "2026-08-05",
       "DataScadenzaISO": "2026-08-30",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14101"
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14105"
     },
     {
       "CPI": "SILD_ROMA",
@@ -565,22 +613,6 @@
       "DataInserimentoISO": "2026-08-03",
       "DataScadenzaISO": "2026-09-02",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14096"
-    },
-    {
-      "CPI": "SILD_FROSINONE",
-      "ID_Richiesta": "P163SSF",
-      "DataInserimento": "31/07/2026",
-      "DataScadenza": "25/08/2026",
-      "Azienda": "Azienda riservata",
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Addetti agli affari generali",
-      "Mansioni": "Si ricerca una risorsa con spiccate capacità organizzative e amministrative, in grado di supportare il RUP nella gestione tecnico-amministrativa dei procedimenti, garantendo il corretto presidio di adempimenti, scadenze e flussi documentali.",
-      "ComuneSedeLavoro": "Cassino",
-      "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99",
-      "DataInserimentoISO": "2026-07-31",
-      "DataScadenzaISO": "2026-08-25",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14093"
     },
     {
       "CPI": "CPI CIVITA CASTELLANA",
