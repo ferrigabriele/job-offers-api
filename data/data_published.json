@@ -2,7 +2,7 @@
   "meta": {
     "progetto": "SOFIA - Prototipo di assistente virtuale per i Centri per l’Impiego",
     "versione": "clean",
-    "ultimo_aggiornamento": "2026-09-08",
+    "ultimo_aggiornamento": "2026-09-09",
     "avviso": "⚠️ Questo file JSON è generato a scopo di test. I dati non sono ufficiali e possono contenere errori o essere incompleti. Usare solo per prototipazione tecnica interna."
   },
   "offerte": [
@@ -40,22 +40,6 @@
     },
     {
       "CPI": "CPI ROMA TORRE_ANGELA",
-      "ID_Richiesta": "P841C11",
-      "DataInserimento": "02/09/2026",
-      "DataScadenza": "29/09/2026",
-      "Azienda": "POLAR SERVICE S.R.L. SEMPLIFICATA",
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "idraulico",
-      "Mansioni": "fare impianti idraulici",
-      "ComuneSedeLavoro": "Roma",
-      "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
-      "Preselezione Riservata": null,
-      "DataInserimentoISO": "2026-09-02",
-      "DataScadenzaISO": "2026-09-29",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14296"
-    },
-    {
-      "CPI": "CPI ROMA TORRE_ANGELA",
       "ID_Richiesta": "P840C11",
       "DataInserimento": "02/09/2026",
       "DataScadenza": "29/09/2026",
@@ -69,6 +53,22 @@
       "DataInserimentoISO": "2026-09-02",
       "DataScadenzaISO": "2026-09-29",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14295"
+    },
+    {
+      "CPI": "CPI ROMA TORRE_ANGELA",
+      "ID_Richiesta": "P841C11",
+      "DataInserimento": "02/09/2026",
+      "DataScadenza": "29/09/2026",
+      "Azienda": "POLAR SERVICE S.R.L. SEMPLIFICATA",
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "idraulico",
+      "Mansioni": "fare impianti idraulici",
+      "ComuneSedeLavoro": "Roma",
+      "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
+      "Preselezione Riservata": null,
+      "DataInserimentoISO": "2026-09-02",
+      "DataScadenzaISO": "2026-09-29",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14296"
     },
     {
       "CPI": "CPI POMEZIA",
@@ -85,6 +85,22 @@
       "DataInserimentoISO": "2026-09-02",
       "DataScadenzaISO": "2026-09-25",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14285"
+    },
+    {
+      "CPI": "CPI POMEZIA",
+      "ID_Richiesta": "P428S11",
+      "DataInserimento": "02/09/2026",
+      "DataScadenza": "25/09/2026",
+      "Azienda": "Miniati Lab S.r.l.",
+      "NumeroLavoratoriRichiesti": 2,
+      "Qualifica": "falegname",
+      "Mansioni": "La Mansione prevede l'apprendimento di una o più mansioni relative alla falegnameria, come utilizzo di macchine CNC, la lavorazione del legno massello, il pre montaggio in fabbrica, il montaggio in fabbrica, il montaggio presso la sede del cliente. la risorsa sarà affiancata da una figura senior nel ruolo.",
+      "ComuneSedeLavoro": "Pomezia",
+      "TipoContratto": "TIROCINIO",
+      "Preselezione Riservata": null,
+      "DataInserimentoISO": "2026-09-02",
+      "DataScadenzaISO": "2026-09-25",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14287"
     },
     {
       "CPI": "CPI POMEZIA",
@@ -119,20 +135,20 @@
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14291"
     },
     {
-      "CPI": "CPI POMEZIA",
-      "ID_Richiesta": "P428S11",
+      "CPI": "CPI BRACCIANO",
+      "ID_Richiesta": "P112N01",
       "DataInserimento": "02/09/2026",
-      "DataScadenza": "25/09/2026",
-      "Azienda": "Miniati Lab S.r.l.",
-      "NumeroLavoratoriRichiesti": 2,
-      "Qualifica": "falegname",
-      "Mansioni": "La Mansione prevede l'apprendimento di una o più mansioni relative alla falegnameria, come utilizzo di macchine CNC, la lavorazione del legno massello, il pre montaggio in fabbrica, il montaggio in fabbrica, il montaggio presso la sede del cliente. la risorsa sarà affiancata da una figura senior nel ruolo.",
-      "ComuneSedeLavoro": "Pomezia",
-      "TipoContratto": "TIROCINIO",
+      "DataScadenza": "16/09/2026",
+      "Azienda": "CENTRO EDIL CERRETO SNC",
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "manovale di cava",
+      "Mansioni": "Operaio in cava addetto allo stivaggio dei blocchetti e magazziniere",
+      "ComuneSedeLavoro": "Canale Monterano",
+      "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
       "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-09-02",
-      "DataScadenzaISO": "2026-09-25",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14287"
+      "DataScadenzaISO": "2026-09-16",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14294"
     },
     {
       "CPI": "CPI ROMA OSTIA",
@@ -167,22 +183,6 @@
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14292"
     },
     {
-      "CPI": "CPI BRACCIANO",
-      "ID_Richiesta": "P112N01",
-      "DataInserimento": "02/09/2026",
-      "DataScadenza": "16/09/2026",
-      "Azienda": "CENTRO EDIL CERRETO SNC",
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "manovale di cava",
-      "Mansioni": "Operaio in cava addetto allo stivaggio dei blocchetti e magazziniere",
-      "ComuneSedeLavoro": "Canale Monterano",
-      "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
-      "Preselezione Riservata": null,
-      "DataInserimentoISO": "2026-09-02",
-      "DataScadenzaISO": "2026-09-16",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14294"
-    },
-    {
       "CPI": "CPI GUIDONIA",
       "ID_Richiesta": "P260C03",
       "DataInserimento": "01/09/2026",
@@ -199,6 +199,22 @@
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14280"
     },
     {
+      "CPI": "CPI SORA",
+      "ID_Richiesta": "P219S13",
+      "DataInserimento": "01/09/2026",
+      "DataScadenza": "16/09/2026",
+      "Azienda": "BG SAS",
+      "NumeroLavoratoriRichiesti": 2,
+      "Qualifica": "Baristi e professioni assimilate",
+      "Mansioni": "IL LAVORATORE SI OCCUPERA', SULLA BASE DELLE RICHIESTE RICEVUTE, DELLA PREPARAZIONE DI BEVANDE CALDE E FREDDE (CAFFETTERIA, COLAZIONI, APERTIVI E COCKTAIL) E DI SEMPLICI SNACK CALDI E FREDDI, CURANDONE L'ASPETTO ESTETICO E SERVENDOLI AL BANCO O AI TAVOLI. ",
+      "ComuneSedeLavoro": "Arce",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
+      "DataInserimentoISO": "2026-09-01",
+      "DataScadenzaISO": "2026-09-16",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14272"
+    },
+    {
       "CPI": "CPI GUIDONIA",
       "ID_Richiesta": "P261C03",
       "DataInserimento": "01/09/2026",
@@ -213,22 +229,6 @@
       "DataInserimentoISO": "2026-09-01",
       "DataScadenzaISO": "2026-09-30",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14281"
-    },
-    {
-      "CPI": "CPI POGGIO MIRTETO",
-      "ID_Richiesta": "P129N07",
-      "DataInserimento": "01/09/2026",
-      "DataScadenza": "16/09/2026",
-      "Azienda": "PECCATI DI GOLA SRL",
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "aiuto cuoco di ristorante",
-      "Mansioni": null,
-      "ComuneSedeLavoro": "Cottanello",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": null,
-      "DataInserimentoISO": "2026-09-01",
-      "DataScadenzaISO": "2026-09-16",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14274"
     },
     {
       "CPI": "CPI CASSINO",
@@ -263,52 +263,20 @@
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14284"
     },
     {
-      "CPI": "CPI BRACCIANO",
-      "ID_Richiesta": "P111N01",
+      "CPI": "CPI GUIDONIA",
+      "ID_Richiesta": "P258C03",
       "DataInserimento": "01/09/2026",
-      "DataScadenza": "16/09/2026",
-      "Azienda": "CENTRO EDIL CERRETO SNC",
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Conduttori di mezzi pesanti e camion",
-      "Mansioni": "magazziniere carrelista, autista addetto al carico e scarico merci",
-      "ComuneSedeLavoro": "Canale Monterano",
-      "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
-      "Preselezione Riservata": null,
-      "DataInserimentoISO": "2026-09-01",
-      "DataScadenzaISO": "2026-09-16",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14282"
-    },
-    {
-      "CPI": "CPI SORA",
-      "ID_Richiesta": "P219S13",
-      "DataInserimento": "01/09/2026",
-      "DataScadenza": "16/09/2026",
-      "Azienda": "BG SAS",
-      "NumeroLavoratoriRichiesti": 2,
-      "Qualifica": "Baristi e professioni assimilate",
-      "Mansioni": "IL LAVORATORE SI OCCUPERA', SULLA BASE DELLE RICHIESTE RICEVUTE, DELLA PREPARAZIONE DI BEVANDE CALDE E FREDDE (CAFFETTERIA, COLAZIONI, APERTIVI E COCKTAIL) E DI SEMPLICI SNACK CALDI E FREDDI, CURANDONE L'ASPETTO ESTETICO E SERVENDOLI AL BANCO O AI TAVOLI. ",
-      "ComuneSedeLavoro": "Arce",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": null,
-      "DataInserimentoISO": "2026-09-01",
-      "DataScadenzaISO": "2026-09-16",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14272"
-    },
-    {
-      "CPI": "SILD_VITERBO",
-      "ID_Richiesta": "P98NSV",
-      "DataInserimento": "01/09/2026",
-      "DataScadenza": "01/10/2026",
+      "DataScadenza": "30/09/2026",
       "Azienda": "Azienda riservata",
       "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Addetti ad attività organizzative delle vendite",
-      "Mansioni": "le mansioni saranno concentrate negli esercizi di vendita, attività di coordinamento e di supporto organizzativo; supervisione alle vendite,raccolta degli ordini, assistenza ai clienti. Il candidato dovrà possedere buone capacità relazionali e comunicative anche da remoto e essere dotato di propensione al problem solving",
-      "ComuneSedeLavoro": "Viterbo",
+      "Qualifica": "Autisti di taxi, conduttori di automobili, furgoni e altri veicoli per trasporto di persone",
+      "Mansioni": "AUTISTA DI AUTOMOBILI - FURGONI E ALTRI VEICOLI",
+      "ComuneSedeLavoro": "Guidonia Montecelio",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-09-01",
-      "DataScadenzaISO": "2026-10-01",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14283"
+      "DataScadenzaISO": "2026-09-30",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14275"
     },
     {
       "CPI": "CPI GUIDONIA",
@@ -327,20 +295,52 @@
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14276"
     },
     {
-      "CPI": "CPI GUIDONIA",
-      "ID_Richiesta": "P258C03",
+      "CPI": "SILD_VITERBO",
+      "ID_Richiesta": "P98NSV",
       "DataInserimento": "01/09/2026",
-      "DataScadenza": "30/09/2026",
+      "DataScadenza": "01/10/2026",
       "Azienda": "Azienda riservata",
       "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Autisti di taxi, conduttori di automobili, furgoni e altri veicoli per trasporto di persone",
-      "Mansioni": "AUTISTA DI AUTOMOBILI - FURGONI E ALTRI VEICOLI",
-      "ComuneSedeLavoro": "Guidonia Montecelio",
+      "Qualifica": "Addetti ad attività organizzative delle vendite",
+      "Mansioni": "le mansioni saranno concentrate negli esercizi di vendita, attività di coordinamento e di supporto organizzativo; supervisione alle vendite,raccolta degli ordini, assistenza ai clienti. Il candidato dovrà possedere buone capacità relazionali e comunicative anche da remoto e essere dotato di propensione al problem solving",
+      "ComuneSedeLavoro": "Viterbo",
       "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
+      "Preselezione Riservata": "Disabili art 1 Legge 68/99",
       "DataInserimentoISO": "2026-09-01",
-      "DataScadenzaISO": "2026-09-30",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14275"
+      "DataScadenzaISO": "2026-10-01",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14283"
+    },
+    {
+      "CPI": "CPI BRACCIANO",
+      "ID_Richiesta": "P111N01",
+      "DataInserimento": "01/09/2026",
+      "DataScadenza": "16/09/2026",
+      "Azienda": "CENTRO EDIL CERRETO SNC",
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "Conduttori di mezzi pesanti e camion",
+      "Mansioni": "magazziniere carrelista, autista addetto al carico e scarico merci",
+      "ComuneSedeLavoro": "Canale Monterano",
+      "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
+      "Preselezione Riservata": null,
+      "DataInserimentoISO": "2026-09-01",
+      "DataScadenzaISO": "2026-09-16",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14282"
+    },
+    {
+      "CPI": "CPI POGGIO MIRTETO",
+      "ID_Richiesta": "P129N07",
+      "DataInserimento": "01/09/2026",
+      "DataScadenza": "16/09/2026",
+      "Azienda": "PECCATI DI GOLA SRL",
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "aiuto cuoco di ristorante",
+      "Mansioni": null,
+      "ComuneSedeLavoro": "Cottanello",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
+      "DataInserimentoISO": "2026-09-01",
+      "DataScadenzaISO": "2026-09-16",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14274"
     },
     {
       "CPI": "CPI ANZIO",
@@ -357,22 +357,6 @@
       "DataInserimentoISO": "2026-08-31",
       "DataScadenzaISO": "2026-09-18",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14267"
-    },
-    {
-      "CPI": "SILD_LATINA",
-      "ID_Richiesta": "P110SSL",
-      "DataInserimento": "31/08/2026",
-      "DataScadenza": "15/09/2026",
-      "Azienda": "COTRAL SPA",
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Segretari amministrativi e tecnici degli affari generali - Impiegato\nCollaboratore d'ufficio",
-      "Mansioni": "attività di tipo amministrativa - con titolo di studio diploma - conoscenza base pacchetto office - patente b.",
-      "ComuneSedeLavoro": "Latina",
-      "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
-      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
-      "DataInserimentoISO": "2026-08-31",
-      "DataScadenzaISO": "2026-09-15",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14271"
     },
     {
       "CPI": "CPI ANZIO",
@@ -421,6 +405,22 @@
       "DataInserimentoISO": "2026-08-31",
       "DataScadenzaISO": "2026-09-15",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14269"
+    },
+    {
+      "CPI": "SILD_LATINA",
+      "ID_Richiesta": "P110SSL",
+      "DataInserimento": "31/08/2026",
+      "DataScadenza": "15/09/2026",
+      "Azienda": "COTRAL SPA",
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "Segretari amministrativi e tecnici degli affari generali - Impiegato\nCollaboratore d'ufficio",
+      "Mansioni": "attività di tipo amministrativa - con titolo di studio diploma - conoscenza base pacchetto office - patente b.",
+      "ComuneSedeLavoro": "Latina",
+      "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
+      "DataInserimentoISO": "2026-08-31",
+      "DataScadenzaISO": "2026-09-15",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14271"
     },
     {
       "CPI": "SILD_ROMA",
@@ -567,22 +567,6 @@
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14230"
     },
     {
-      "CPI": "CPI PALESTRINA",
-      "ID_Richiesta": "P277S10",
-      "DataInserimento": "25/08/2026",
-      "DataScadenza": "07/09/2026",
-      "Azienda": "SERVIADEL SRL",
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Camerieri di ristorante",
-      "Mansioni": "LA FIGURA RICERCATA DOVRA' OCCUPARSI DI:\nACCOGLIENZA CLIENTI, RACCOLTA ORDINAZIONI, SERVIZIO AL TAVOLO, ALLESTIMENTO SALA",
-      "ComuneSedeLavoro": "Palestrina",
-      "TipoContratto": "LAVORO INTERMITTENTE",
-      "Preselezione Riservata": null,
-      "DataInserimentoISO": "2026-08-25",
-      "DataScadenzaISO": "2026-09-07",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14229"
-    },
-    {
       "CPI": "CPI VELLETRI",
       "ID_Richiesta": "P226C14",
       "DataInserimento": "24/08/2026",
@@ -597,22 +581,6 @@
       "DataInserimentoISO": "2026-08-24",
       "DataScadenzaISO": "2026-09-08",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14219"
-    },
-    {
-      "CPI": "CPI SORA",
-      "ID_Richiesta": "P217S13",
-      "DataInserimento": "21/08/2026",
-      "DataScadenza": "19/09/2026",
-      "Azienda": "LA PESCHERIA SRLS- RISTORANTE PESCHERIA DELL'ADRIATICO",
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Cuochi in alberghi e ristoranti - CUOCO/AIUTO CUOCO",
-      "Mansioni": "PREPARAZIONE/PULIZA DEL PESCE\nPULIZIA CUCINA\nASSISTENZA DURANTE IL SERVIZIO\nPREPARAZIONE PIATTI FREDDI",
-      "ComuneSedeLavoro": "Sora",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": null,
-      "DataInserimentoISO": "2026-08-21",
-      "DataScadenzaISO": "2026-09-19",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14218"
     },
     {
       "CPI": "CPI ALBANO",
@@ -631,6 +599,22 @@
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14217"
     },
     {
+      "CPI": "CPI SORA",
+      "ID_Richiesta": "P217S13",
+      "DataInserimento": "21/08/2026",
+      "DataScadenza": "19/09/2026",
+      "Azienda": "LA PESCHERIA SRLS- RISTORANTE PESCHERIA DELL'ADRIATICO",
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "Cuochi in alberghi e ristoranti - CUOCO/AIUTO CUOCO",
+      "Mansioni": "PREPARAZIONE/PULIZA DEL PESCE\nPULIZIA CUCINA\nASSISTENZA DURANTE IL SERVIZIO\nPREPARAZIONE PIATTI FREDDI",
+      "ComuneSedeLavoro": "Sora",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
+      "DataInserimentoISO": "2026-08-21",
+      "DataScadenzaISO": "2026-09-19",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14218"
+    },
+    {
       "CPI": "CPI FRASCATI",
       "ID_Richiesta": "P297C02",
       "DataInserimento": "11/08/2026",
@@ -645,22 +629,6 @@
       "DataInserimentoISO": "2026-08-11",
       "DataScadenzaISO": "2026-09-11",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14142"
-    },
-    {
-      "CPI": "CPI ROMA TESTACCIO",
-      "ID_Richiesta": "P854C09",
-      "DataInserimento": "10/08/2026",
-      "DataScadenza": "07/09/2026",
-      "Azienda": "MEWA SRL",
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Conduttori di mezzi pesanti e camion",
-      "Mansioni": "AUTISTA ESPERTO per trasporto presso clienti con contratto di noleggio di sacon porta panni tecnici, disponibilità a trasferte fuori sede (lun-ven max 5 gg) con rimborso spese vitto e alloggio.\nDeve possedere le patenti B - C - ADR Trasporto merci pericolose, CQC e (Preferibilmente anche E) ",
-      "ComuneSedeLavoro": "San Cesareo",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": null,
-      "DataInserimentoISO": "2026-08-10",
-      "DataScadenzaISO": "2026-09-07",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14109"
     },
     {
       "CPI": "CPI ALBANO",
