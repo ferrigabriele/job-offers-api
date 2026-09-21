@@ -2,7 +2,7 @@
   "meta": {
     "progetto": "SOFIA - Prototipo di assistente virtuale per i Centri per l’Impiego",
     "versione": "clean",
-    "ultimo_aggiornamento": "2026-09-20",
+    "ultimo_aggiornamento": "2026-09-21",
     "avviso": "⚠️ Questo file JSON è generato a scopo di test. I dati non sono ufficiali e possono contenere errori o essere incompleti. Usare solo per prototipazione tecnica interna."
   },
   "offerte": [
@@ -52,7 +52,7 @@
       "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-09-18",
       "DataScadenzaISO": "2026-10-02",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/15993"
     },
     {
       "CPI": "CPI VELLETRI",
@@ -68,7 +68,7 @@
       "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-09-18",
       "DataScadenzaISO": "2026-10-03",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/15990"
     },
     {
       "CPI": "SILD_ROMA",
@@ -84,7 +84,7 @@
       "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
       "DataInserimentoISO": "2026-09-18",
       "DataScadenzaISO": "2026-09-30",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/15994"
     },
     {
       "CPI": "CPI ROMA TESTACCIO",
@@ -100,7 +100,7 @@
       "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-09-18",
       "DataScadenzaISO": "2026-10-08",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/15989"
     },
     {
       "CPI": "CPI ROMA TIBURTINO",
@@ -116,7 +116,7 @@
       "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-09-18",
       "DataScadenzaISO": "2026-10-02",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/15991"
     },
     {
       "CPI": "CPI ROMA TIBURTINO",
@@ -132,7 +132,7 @@
       "Preselezione Riservata": "Disabili art 1 Legge 68/99",
       "DataInserimentoISO": "2026-09-18",
       "DataScadenzaISO": "2026-10-02",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/15992"
     },
     {
       "CPI": "SILD_RIETI",
@@ -164,7 +164,7 @@
       "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-09-17",
       "DataScadenzaISO": "2026-10-01",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/15986"
     },
     {
       "CPI": "SILD_FROSINONE",
@@ -180,7 +180,7 @@
       "Preselezione Riservata": "Disabili art 1 Legge 68/99",
       "DataInserimentoISO": "2026-09-17",
       "DataScadenzaISO": "2026-09-26",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/15987"
     },
     {
       "CPI": "CPI ROMA TESTACCIO",
@@ -196,7 +196,7 @@
       "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-09-17",
       "DataScadenzaISO": "2026-10-07",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/15983"
     },
     {
       "CPI": "CPI ROMA TESTACCIO",
@@ -212,7 +212,7 @@
       "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-09-17",
       "DataScadenzaISO": "2026-10-07",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/15982"
     },
     {
       "CPI": "CPI ALBANO",
@@ -244,7 +244,7 @@
       "Preselezione Riservata": "Disabili art 1 Legge 68/99",
       "DataInserimentoISO": "2026-09-17",
       "DataScadenzaISO": "2026-09-30",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/15984"
     },
     {
       "CPI": "CPI ROMA TESTACCIO",
@@ -260,7 +260,7 @@
       "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-09-17",
       "DataScadenzaISO": "2026-10-07",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/15980"
     },
     {
       "CPI": "SILD_LATINA",
@@ -276,7 +276,7 @@
       "Preselezione Riservata": "Disabili art 1 Legge 68/99",
       "DataInserimentoISO": "2026-09-17",
       "DataScadenzaISO": "2026-10-05",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/15988"
     },
     {
       "CPI": "CPI ALBANO",
@@ -308,7 +308,7 @@
       "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-09-17",
       "DataScadenzaISO": "2026-10-07",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/15981"
     },
     {
       "CPI": "CPI ROMA TORRE_ANGELA",
@@ -324,7 +324,7 @@
       "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-09-17",
       "DataScadenzaISO": "2026-10-06",
-      "LinkPubblicazioneOfferta": null
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/15985"
     },
     {
       "CPI": "SILD_ROMA",
@@ -1319,22 +1319,6 @@
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14319"
     },
     {
-      "CPI": "SILD_FROSINONE",
-      "ID_Richiesta": "P167SSF",
-      "DataInserimento": "09/09/2026",
-      "DataScadenza": "08/10/2026",
-      "Azienda": "AFI SRL",
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Conduttori di macchinari per la produzione di pasticceria e prodotti da forno",
-      "Mansioni": "CONFEZIONAMENTO E INSCATOLAMENTO TORTE E GELATI",
-      "ComuneSedeLavoro": "Ausonia",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": "Disabili art 1 Legge 68/99",
-      "DataInserimentoISO": "2026-09-09",
-      "DataScadenzaISO": "2026-10-08",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/15913"
-    },
-    {
       "CPI": "CPI ROMA PRIMAVALLE",
       "ID_Richiesta": "P537C08",
       "DataInserimento": "09/09/2026",
@@ -1349,6 +1333,22 @@
       "DataInserimentoISO": "2026-09-09",
       "DataScadenzaISO": "2026-09-30",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/15885"
+    },
+    {
+      "CPI": "SILD_FROSINONE",
+      "ID_Richiesta": "P167SSF",
+      "DataInserimento": "09/09/2026",
+      "DataScadenza": "08/10/2026",
+      "Azienda": "AFI SRL",
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "Conduttori di macchinari per la produzione di pasticceria e prodotti da forno",
+      "Mansioni": "CONFEZIONAMENTO E INSCATOLAMENTO TORTE E GELATI",
+      "ComuneSedeLavoro": "Ausonia",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": "Disabili art 1 Legge 68/99",
+      "DataInserimentoISO": "2026-09-09",
+      "DataScadenzaISO": "2026-10-08",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/15913"
     },
     {
       "CPI": "CPI ROMA OSTIA",
@@ -1368,19 +1368,19 @@
     },
     {
       "CPI": "CPI VITERBO",
-      "ID_Richiesta": "P668N10",
+      "ID_Richiesta": "P667N10",
       "DataInserimento": "08/09/2026",
       "DataScadenza": "22/09/2026",
-      "Azienda": "Conf. Cobas Viterbo",
+      "Azienda": "Azienda riservata",
       "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Addetti alla contabilità",
-      "Mansioni": "Operatore/operatrice CAF e PAtronato casa circondariale di Viterbo e Civitavecchia",
-      "ComuneSedeLavoro": "Viterbo",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Qualifica": "addetto alla fatturazione",
+      "Mansioni": "Registrazione fattura attive/passive",
+      "ComuneSedeLavoro": "Vetralla",
+      "TipoContratto": "TIROCINIO",
       "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-09-08",
       "DataScadenzaISO": "2026-09-22",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/15873"
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/15872"
     },
     {
       "CPI": "CPI PASSO CORESE",
@@ -1447,6 +1447,22 @@
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/15862"
     },
     {
+      "CPI": "CPI VITERBO",
+      "ID_Richiesta": "P668N10",
+      "DataInserimento": "08/09/2026",
+      "DataScadenza": "22/09/2026",
+      "Azienda": "Conf. Cobas Viterbo",
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "Addetti alla contabilità",
+      "Mansioni": "Operatore/operatrice CAF e PAtronato casa circondariale di Viterbo e Civitavecchia",
+      "ComuneSedeLavoro": "Viterbo",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": null,
+      "DataInserimentoISO": "2026-09-08",
+      "DataScadenzaISO": "2026-09-22",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/15873"
+    },
+    {
       "CPI": "CPI COLLEFERRO",
       "ID_Richiesta": "P242S05",
       "DataInserimento": "08/09/2026",
@@ -1461,22 +1477,6 @@
       "DataInserimentoISO": "2026-09-08",
       "DataScadenzaISO": "2026-09-29",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/15863"
-    },
-    {
-      "CPI": "CPI VITERBO",
-      "ID_Richiesta": "P667N10",
-      "DataInserimento": "08/09/2026",
-      "DataScadenza": "22/09/2026",
-      "Azienda": "Azienda riservata",
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "addetto alla fatturazione",
-      "Mansioni": "Registrazione fattura attive/passive",
-      "ComuneSedeLavoro": "Vetralla",
-      "TipoContratto": "TIROCINIO",
-      "Preselezione Riservata": null,
-      "DataInserimentoISO": "2026-09-08",
-      "DataScadenzaISO": "2026-09-22",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/15872"
     },
     {
       "CPI": "SILD_FROSINONE",
@@ -1543,6 +1543,22 @@
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/15881"
     },
     {
+      "CPI": "CPI ROMA TESTACCIO",
+      "ID_Richiesta": "P855C09",
+      "DataInserimento": "07/09/2026",
+      "DataScadenza": "20/09/2026",
+      "Azienda": "Azienda riservata",
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "Personale non qualificato addetto ai servizi di custodia di edifici",
+      "Mansioni": "APERTURA E CHIUSURA DELLA STRUTTURA, ACCOGLIENZA E GESTIONE ALL'INGRESSO DEGLI UTENTI/VISITATORI E PERSONALE AUTORIZZATO\nATTIVITA' DI GESTIONE DEL CENTRALINO CON SMISTAMENTO DELLE CHIAMATE  VERSO GLI UFFICI E /O E  VERSO IL PERSONALE DI RIFERIMENTO.",
+      "ComuneSedeLavoro": "Roma",
+      "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
+      "Preselezione Riservata": null,
+      "DataInserimentoISO": "2026-09-07",
+      "DataScadenzaISO": "2026-09-20",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/15859"
+    },
+    {
       "CPI": "CPI COLLEFERRO",
       "ID_Richiesta": "P240S05",
       "DataInserimento": "07/09/2026",
@@ -1573,38 +1589,6 @@
       "DataInserimentoISO": "2026-09-07",
       "DataScadenzaISO": "2026-09-28",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14316"
-    },
-    {
-      "CPI": "CPI ROMA TESTACCIO",
-      "ID_Richiesta": "P855C09",
-      "DataInserimento": "07/09/2026",
-      "DataScadenza": "20/09/2026",
-      "Azienda": "Azienda riservata",
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Personale non qualificato addetto ai servizi di custodia di edifici",
-      "Mansioni": "APERTURA E CHIUSURA DELLA STRUTTURA, ACCOGLIENZA E GESTIONE ALL'INGRESSO DEGLI UTENTI/VISITATORI E PERSONALE AUTORIZZATO\nATTIVITA' DI GESTIONE DEL CENTRALINO CON SMISTAMENTO DELLE CHIAMATE  VERSO GLI UFFICI E /O E  VERSO IL PERSONALE DI RIFERIMENTO.",
-      "ComuneSedeLavoro": "Roma",
-      "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
-      "Preselezione Riservata": null,
-      "DataInserimentoISO": "2026-09-07",
-      "DataScadenzaISO": "2026-09-20",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/15859"
-    },
-    {
-      "CPI": "SILD_LATINA",
-      "ID_Richiesta": "P116SSL",
-      "DataInserimento": "04/09/2026",
-      "DataScadenza": "21/09/2026",
-      "Azienda": "COSMARI GESTIONI AMBIENTALI SRL",
-      "NumeroLavoratoriRichiesti": 3,
-      "Qualifica": "Conduttori di mezzi pesanti e camion",
-      "Mansioni": "Autista scarrabili e auto spurgo",
-      "ComuneSedeLavoro": "Cisterna di Latina",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
-      "DataInserimentoISO": "2026-09-04",
-      "DataScadenzaISO": "2026-09-21",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14315"
     },
     {
       "CPI": "CPI ROMA TORRE_ANGELA",
@@ -1704,6 +1688,22 @@
     },
     {
       "CPI": "SILD_LATINA",
+      "ID_Richiesta": "P116SSL",
+      "DataInserimento": "04/09/2026",
+      "DataScadenza": "21/09/2026",
+      "Azienda": "COSMARI GESTIONI AMBIENTALI SRL",
+      "NumeroLavoratoriRichiesti": 3,
+      "Qualifica": "Conduttori di mezzi pesanti e camion",
+      "Mansioni": "Autista scarrabili e auto spurgo",
+      "ComuneSedeLavoro": "Cisterna di Latina",
+      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
+      "Preselezione Riservata": "Categorie protette art 18 Legge 68/99",
+      "DataInserimentoISO": "2026-09-04",
+      "DataScadenzaISO": "2026-09-21",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14315"
+    },
+    {
+      "CPI": "SILD_LATINA",
       "ID_Richiesta": "P114SSL",
       "DataInserimento": "03/09/2026",
       "DataScadenza": "21/09/2026",
@@ -1768,19 +1768,35 @@
     },
     {
       "CPI": "CPI ROMA TORRE_ANGELA",
-      "ID_Richiesta": "P841C11",
+      "ID_Richiesta": "P840C11",
       "DataInserimento": "02/09/2026",
       "DataScadenza": "29/09/2026",
       "Azienda": "POLAR SERVICE S.R.L. SEMPLIFICATA",
       "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "idraulico",
-      "Mansioni": "fare impianti idraulici",
+      "Qualifica": "Muratori in pietra e mattoni",
+      "Mansioni": "realizzazione di tramezzi, pittura, rasatura, cartongesso.",
       "ComuneSedeLavoro": "Roma",
       "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
       "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-09-02",
       "DataScadenzaISO": "2026-09-29",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14296"
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14295"
+    },
+    {
+      "CPI": "CPI POMEZIA",
+      "ID_Richiesta": "P430S11",
+      "DataInserimento": "02/09/2026",
+      "DataScadenza": "25/09/2026",
+      "Azienda": "Miniati Lab S.R.L.",
+      "NumeroLavoratoriRichiesti": 1,
+      "Qualifica": "imballatore di magazzino",
+      "Mansioni": " La mansione prevede l'apprendimento delle attività inerenti al dipartimento imballaggi dell'azienda, chiave per accontentare i clienti che richiedono questa tipologia di servizio. L'attività richiede sforzo fisico. ",
+      "ComuneSedeLavoro": "Pomezia",
+      "TipoContratto": "TIROCINIO",
+      "Preselezione Riservata": null,
+      "DataInserimentoISO": "2026-09-02",
+      "DataScadenzaISO": "2026-09-25",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14291"
     },
     {
       "CPI": "CPI POMEZIA",
@@ -1815,22 +1831,6 @@
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14297"
     },
     {
-      "CPI": "CPI ROMA TORRE_ANGELA",
-      "ID_Richiesta": "P840C11",
-      "DataInserimento": "02/09/2026",
-      "DataScadenza": "29/09/2026",
-      "Azienda": "POLAR SERVICE S.R.L. SEMPLIFICATA",
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Muratori in pietra e mattoni",
-      "Mansioni": "realizzazione di tramezzi, pittura, rasatura, cartongesso.",
-      "ComuneSedeLavoro": "Roma",
-      "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
-      "Preselezione Riservata": null,
-      "DataInserimentoISO": "2026-09-02",
-      "DataScadenzaISO": "2026-09-29",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14295"
-    },
-    {
       "CPI": "CPI POMEZIA",
       "ID_Richiesta": "P428S11",
       "DataInserimento": "02/09/2026",
@@ -1847,20 +1847,20 @@
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14287"
     },
     {
-      "CPI": "CPI POMEZIA",
-      "ID_Richiesta": "P430S11",
+      "CPI": "CPI ROMA TORRE_ANGELA",
+      "ID_Richiesta": "P841C11",
       "DataInserimento": "02/09/2026",
-      "DataScadenza": "25/09/2026",
-      "Azienda": "Miniati Lab S.R.L.",
+      "DataScadenza": "29/09/2026",
+      "Azienda": "POLAR SERVICE S.R.L. SEMPLIFICATA",
       "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "imballatore di magazzino",
-      "Mansioni": " La mansione prevede l'apprendimento delle attività inerenti al dipartimento imballaggi dell'azienda, chiave per accontentare i clienti che richiedono questa tipologia di servizio. L'attività richiede sforzo fisico. ",
-      "ComuneSedeLavoro": "Pomezia",
-      "TipoContratto": "TIROCINIO",
+      "Qualifica": "idraulico",
+      "Mansioni": "fare impianti idraulici",
+      "ComuneSedeLavoro": "Roma",
+      "TipoContratto": "LAVORO A TEMPO INDETERMINATO                ",
       "Preselezione Riservata": null,
       "DataInserimentoISO": "2026-09-02",
-      "DataScadenzaISO": "2026-09-25",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14291"
+      "DataScadenzaISO": "2026-09-29",
+      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14296"
     },
     {
       "CPI": "CPI GUIDONIA",
@@ -1989,22 +1989,6 @@
       "DataInserimentoISO": "2026-08-25",
       "DataScadenzaISO": "2026-09-24",
       "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14231"
-    },
-    {
-      "CPI": "CPI SORA",
-      "ID_Richiesta": "P217S13",
-      "DataInserimento": "21/08/2026",
-      "DataScadenza": "19/09/2026",
-      "Azienda": "LA PESCHERIA SRLS- RISTORANTE PESCHERIA DELL'ADRIATICO",
-      "NumeroLavoratoriRichiesti": 1,
-      "Qualifica": "Cuochi in alberghi e ristoranti - CUOCO/AIUTO CUOCO",
-      "Mansioni": "PREPARAZIONE/PULIZA DEL PESCE\nPULIZIA CUCINA\nASSISTENZA DURANTE IL SERVIZIO\nPREPARAZIONE PIATTI FREDDI",
-      "ComuneSedeLavoro": "Sora",
-      "TipoContratto": "LAVORO A TEMPO DETERMINATO                  ",
-      "Preselezione Riservata": null,
-      "DataInserimentoISO": "2026-08-21",
-      "DataScadenzaISO": "2026-09-19",
-      "LinkPubblicazioneOfferta": "https://www.regione.lazio.it/cittadini/lavoro/offerte-lavoro/14218"
     },
     {
       "CPI": "CPI ALBANO",
